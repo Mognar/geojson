@@ -36,13 +36,31 @@
             //Load in GeoJSON data
             d3.json(src="topojsonwpc.json", function(json) {
 
-                //Bind data and create one path per GeoJSON feature
-                svg.selectAll("path")
-                   .data(json.geometries)
-                   .enter()
-                   .append("path")
-                   .attr("d", path)
-                   .style("fill", "steelblue");
+    var b = path.bounds(topojson.feature(boundaries, boundaries.objects[units]));
+    var s = .95 / Math.max((b[1][0] - b[0][0]) / width, (b[1][1] - b[0][1]) / height);
+    var t = [(width - s * (b[1][0] + b[0][0])) / 2, (height - s * (b[1][1] + b[0][1])) / 2];
+    
+    projection
+        .scale(s)
+        .translate(t);
+
+    // add an area for each feature in the topoJSON
+    g.selectAll(".area")
+        .data(topojson.feature(boundaries, boundaries.objects[units]).features)
+        .enter().append("path")
+        .attr("class", "area")
+        .attr("id", function(d) {return d.id})
+        .attr("properties_table", function(d) { return create_table(d.properties)})
+        .attr("d", path)
+        .on("click", function(d){ return select(d)});
+
+    // add a boundary between areas
+    g.append("path")
+        .datum(topojson.mesh(boundaries, boundaries.objects[units], function(a, b){ return a !== b }))
+        .attr('d', path)
+        .attr('class', 'boundary');
+}
+
 
             });
 
