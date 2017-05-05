@@ -6,6 +6,7 @@
         <script type="text/javascript" src="https://d3js.org/d3.v3.min.js"></script>
         <script type="text/javascript" src="https://d3js.org/d3-geo.v1.min.js"></script>
         <script type="text/javascript" src="https://d3js.org/d3-geo-projection.v2.min.js"></script>
+        <script type="text/javascript" src="https://d3js.org/topojson.v1.min.js"></script>
         <style type="text/css">
             /* No style rules here yet */       
         </style>
@@ -33,7 +34,7 @@
                         .attr("height", h);
 
             //Load in GeoJSON data
-            d3.json(src="https://raw.githubusercontent.com/martinjc/UK-GeoJSON/master/json/electoral/gb/wpc.json", function(json) {
+            d3.json(src="topojsonwpc.json", function(json) {
 
                 //Bind data and create one path per GeoJSON feature
                 svg.selectAll("path")
