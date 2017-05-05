@@ -33,7 +33,7 @@
                         .attr("height", h);
 
             //Load in GeoJSON data
-            d3.json(src="UK-GeoJSON/json/electoral/gb/wpc.json", function(json) {
+            d3.json(src="https://raw.githubusercontent.com/martinjc/UK-GeoJSON/master/json/electoral/gb/wpc.json", function(json) {
 
                 //Bind data and create one path per GeoJSON feature
                 svg.selectAll("path")
