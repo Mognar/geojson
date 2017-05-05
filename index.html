@@ -33,7 +33,7 @@
                         .attr("height", h);
 
             //Load in GeoJSON data
-            d3.json("https://geoportal.statistics.gov.uk/datasets/b0f309e493cf4b9ba0d343eebb97b5ee_0.geojson?where=&geometry={"xmin":-6510660.438089979,"ymin":6062179.402493376,"xmax":5846455.302601471,"ymax":8997361.288643364,"spatialReference":{"wkid":102100,"latestWkid":3857}}", function(json) {
+            d3.json("https://geoportal.statistics.gov.uk/datasets/b0f309e493cf4b9ba0d343eebb97b5ee_0.geojson?where=&geometry={"xmin":-6510660.438089979,"ymin":6062179.402493376,"xmax":5846455.302601471,"ymax":8997361.288643364,"spatialReference":{"wkid":102100,"latestWkid":3857}}"), function(json) {
 
                 //Bind data and create one path per GeoJSON feature
                 svg.selectAll("path")
