@@ -1,68 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <meta charset="utf-8">
-        <title>D3: Setting path fills</title>
-        <script type="text/javascript" src="https://d3js.org/d3.v3.min.js"></script>
-        <script type="text/javascript" src="https://d3js.org/d3-geo.v1.min.js"></script>
-        <script type="text/javascript" src="https://d3js.org/d3-geo-projection.v2.min.js"></script>
-        <script type="text/javascript" src="https://d3js.org/topojson.v1.min.js"></script>
-        <style type="text/css">
-            /* No style rules here yet */       
-        </style>
     </head>
-    <body>
-        <script type="text/javascript">
+<body>
+<script src="//d3js.org/d3.v3.min.js" charset="utf-8"></script>
+<script src="//d3js.org/topojson.v1.min.js"></script>
+<script>
 
-            //Width and height
-            var w = 500;
-            var h = 300;
+d3.json("topojsonwpc.json", function(error, uk) {
+  if (error) return console.error(error);
+  console.log(uk);
+});
 
-            //Define map projection
-            var projection = d3.geo.mercator()
-                                   .translate([w/2, h/2])
-                                   .scale([500]);
-
-            //Define path generator
-            var path = d3.geo.path()
-                             .projection(projection);
-
-            //Create SVG element
-            var svg = d3.select("body")
-                        .append("svg")
-                        .attr("width", w)
-                        .attr("height", h);
-
-            //Load in GeoJSON data
-            d3.json(src="topojsonwpc.json", function(json) {
-
-                function draw(boundaries) {
-    var b = path.bounds(topojson.feature(boundaries, boundaries.objects[units]));
-    var s = .95 / Math.max((b[1][0] - b[0][0]) / width, (b[1][1] - b[0][1]) / height);
-    var t = [(width - s * (b[1][0] + b[0][0])) / 2, (height - s * (b[1][1] + b[0][1])) / 2];
-    
-    projection
-        .scale(s)
-        .translate(t);
-
-    // add an area for each feature in the topoJSON
-    g.selectAll(".area")
-        .data(topojson.feature(boundaries, boundaries.objects[units]).features)
-        .enter().append("path")
-        .attr("class", "area")
-        .attr("id", function(d) {return d.id})
-        .attr("properties_table", function(d) { return create_table(d.properties)})
-        .attr("d", path)
-        .on("click", function(d){ return select(d)});
-
-    // add a boundary between areas
-    g.append("path")
-        .datum(topojson.mesh(boundaries, boundaries.objects[units], function(a, b){ return a !== b }))
-        .attr('d', path)
-        .attr('class', 'boundary');
-            }
-            });
-
-        </script>
-    </body>
-</html>
+</script>
+<html>
