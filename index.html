@@ -33,9 +33,14 @@ svg.append("path")
     .datum(topojson.mesh(uk, uk.objects.wpc))
     .attr("d", path)
     .attr("class", "crs");
-    .enter().append("text")
- .text(function(d) { return d.properties; });
- 
+  
+svg.selectAll(".subunit-label")
+    .data(topojson.feature(uk, uk.objects.crs).features)
+  .enter().append("text")
+    .attr("class", function(d) { return "subunit-label " + d.id; })
+    .attr("transform", function(d) { return "translate(" + path.centroid(d) + ")"; })
+    .attr("dy", ".35em")
+    .text(function(d) { return d.properties.name; }); 
 });
 
 </script>
