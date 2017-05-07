@@ -29,9 +29,10 @@ var wpc = topojson.feature(uk, uk.objects.wpc);
 var path = d3.geo.path()
     .projection(projection);
     
-  svg.append("path")
-      .datum(wpc)
-      .attr("d", path);
+svg.append("path")
+    .datum(topojson.mesh(uk, uk.objects.wpc))
+    .attr("d", path)
+    .attr("class", "crs");
  
 });
 
