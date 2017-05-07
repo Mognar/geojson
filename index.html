@@ -14,7 +14,7 @@ var svg = d3.select("body").append("svg")
     .attr("width", width)
     .attr("height", height);    
     
-var wpc = topojson.feature(uk, topojsonwpc.objects.wpc);
+var wpc = topojson.feature(topojsonwpc, topojsonwpc.objects.wpc);
     
 var path = d3.geo.path()
     .projection(projection);
