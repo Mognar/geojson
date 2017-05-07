@@ -35,7 +35,7 @@ svg.append("path")
     .attr("class", "crs");
   
 svg.selectAll(".subunit-label")
-    .data(topojson.feature(uk, uk.objects.crs).features)
+    .data(topojson.feature(uk, uk.objects.wpc).features)
   .enter().append("text")
     .attr("class", function(d) { return "subunit-label " + d.id; })
     .attr("transform", function(d) { return "translate(" + path.centroid(d) + ")"; })
