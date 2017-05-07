@@ -33,6 +33,8 @@ svg.append("path")
     .datum(topojson.mesh(uk, uk.objects.wpc))
     .attr("d", path)
     .attr("class", "crs");
+    .enter().append("text")
+ .text(function(d) { return d.properties; });
  
 });
 
