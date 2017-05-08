@@ -32,6 +32,7 @@ div.tooltip {
   }
 </style>
 <body>
+  <h1 text-align="center">Chloropleth map showing number of debates each England MP spoke in in 2015 Parliament</h1>
 <script src="https://d3js.org/d3.v3.min.js"></script>
   <script src="//d3js.org/queue.v1.min.js"></script>
 <script src="https://d3js.org/topojson.v1.min.js"></script>
@@ -42,8 +43,8 @@ var width = 750,
     height = 900;
   
   var color = d3.scale.threshold()
-    .domain([30, 60, 90, 120, 150])
-    .range(["#f2f0f7", "#dadaeb", "#bcbddc", "#9e9ac8", "#756bb1", "#54278f"]);
+    .domain([30, 60, 90, 120, 150, 180, 210])
+    .range(["#f2f0f7", "#dadaeb", "#bcbddc", "#9e9ac8", "#756bb1", "#54278f", "#220c3f", "#100026"]);
 
 //Map projection
 var projection = d3.geo.mercator()
