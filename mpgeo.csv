@@ -1,0 +1,534 @@
+Const,id,Column2,Column3,MP,Number
+Aldershot,E14000530,E14000530,A01,Gerald Howarth,113
+Aldridge-Brownhills,E14000531,E14000531,A02,Wendy Morton,125
+Altrincham and Sale West,E14000532,E14000532,A03,Graham Brady,17
+Amber Valley,E14000533,E14000533,A04,Nigel Mills,68
+Arundel and South Downs,E14000534,E14000534,A05,Nick Herbert,47
+Ashfield,E14000535,E14000535,A06,Gloria De Piero,27
+Ashford,E14000536,E14000536,A07,Damian Green,63
+Ashton-under-Lyne,E14000537,E14000537,A08,Angela Rayner,88
+Aylesbury,E14000538,E14000538,A09,David Lidington,59
+Banbury,E14000539,E14000539,A10,Victoria Prentis,67
+Barking,E14000540,E14000540,A11,Margaret Hodge,10
+Barnsley Central,E14000541,E14000541,A12,Dan Jarvis,45
+Barnsley East,E14000542,E14000542,A13,Michael Dugher,16
+Barrow and Furness,E14000543,E14000543,A14,John Woodcock,82
+Basildon and Billericay,E14000544,E14000544,A15,John Baron,66
+Basingstoke,E14000545,E14000545,A16,Maria Miller,93
+Bassetlaw,E14000546,E14000546,A17,John Mann,51
+Bath,E14000547,E14000547,A18,Ben Howlett,156
+Batley and Spen,E14000548,E14000548,A19,Tracy Brabin,28
+Battersea,E14000549,E14000549,A20,Jane Ellison,64
+Beaconsfield,E14000550,E14000550,A21,Dominic Grieve,41
+Beckenham,E14000551,E14000551,A22,Bob Stewart,154
+Bedford,E14000552,E14000552,A23,Richard Fuller,93
+Bermondsey and Old Southwark,E14000553,E14000553,A24,Neil Coyle,63
+Berwick-upon-Tweed,E14000554,E14000554,A25,Anne-Marie Trevelyan,70
+Bethnal Green and Bow,E14000555,E14000555,A26,Rushanara Ali,30
+Beverley and Holderness,E14000556,E14000556,A27,Graham Stuart,51
+Bexhill and Battle,E14000557,E14000557,A28,Huw Merriman,133
+Bexleyheath and Crayford,E14000558,E14000558,A29,David Evennett,12
+Birkenhead,E14000559,E14000559,A30,Frank Field,42
+"Birmingham, Edgbaston",E14000560,E14000560,A31,Gisela Stuart,86
+"Birmingham, Erdington",E14000561,E14000561,A32,Jack Dromey,75
+"Birmingham, Hall Green",E14000562,E14000562,A33,Roger Godsiff,6
+"Birmingham, Hodge Hill",E14000563,E14000563,A34,Liam Byrne,31
+"Birmingham, Ladywood",E14000564,E14000564,A35,Shabana Mahmood,22
+"Birmingham, Northfield",E14000565,E14000565,A36,Richard Burden,62
+"Birmingham, Perry Barr",E14000566,E14000566,A37,Khalid Mahmood,25
+"Birmingham, Selly Oak",E14000567,E14000567,A38,Steve McCabe,115
+"Birmingham, Yardley",E14000568,E14000568,A39,Jess Phillips,57
+Bishop Auckland,E14000569,E14000569,A40,Helen Goodman,121
+Blackburn,E14000570,E14000570,A41,Kate Hollern,29
+Blackley and Broughton,E14000571,E14000571,A42,Graham Stringer,47
+Blackpool North and Cleveleys,E14000572,E14000572,A43,Paul Maynard,59
+Blackpool South,E14000573,E14000573,A44,Gordon Marsden,52
+Blaydon,E14000574,E14000574,A45,David Anderson,69
+Blyth Valley,E14000575,E14000575,A46,Ronnie Campbell,15
+Bognor Regis and Littlehampton,E14000576,E14000576,A47,Nick Gibb,52
+Bolsover,E14000577,E14000577,A48,Dennis Skinner,107
+Bolton North East,E14000578,E14000578,A49,David Crausby,4
+Bolton South East,E14000579,E14000579,A50,Yasmin Qureshi,47
+Bolton West,E14000580,E14000580,A51,Chris Green,74
+Bootle,E14000581,E14000581,A52,Peter Dowd,80
+Boston and Skegness,E14000582,E14000582,A53,Matt Warman,97
+Bosworth,E14000583,E14000583,A54,David Tredinnick,45
+Bournemouth East,E14000584,E14000584,A55,Tobias Ellwood,68
+Bournemouth West,E14000585,E14000585,A56,Conor Burns,10
+Bracknell,E14000586,E14000586,A57,Phillip Lee,36
+Bradford East,E14000587,E14000587,A58,Imran Hussain,65
+Bradford South,E14000588,E14000588,A59,Judith Cummins,36
+Bradford West,E14000589,E14000589,A60,Naz Shah,37
+Braintree,E14000590,E14000590,A61,James Cleverly,65
+Brent Central,E14000591,E14000591,A62,Dawn Butler,63
+Brent North,E14000592,E14000592,A63,Barry Gardiner,96
+Brentford and Isleworth,E14000593,E14000593,A64,Ruth Cadbury,101
+Brentwood and Ongar,E14000594,E14000594,A65,Eric Pickles,32
+Bridgwater and West Somerset,E14000595,E14000595,A66,Ian Liddell-Grainger,39
+Brigg and Goole,E14000596,E14000596,A67,Andrew Percy,69
+"Brighton, Kemptown",E14000597,E14000597,A68,Simon Kirby,21
+"Brighton, Pavilion",E14000598,E14000598,A69,Caroline Lucas,142
+Bristol East,E14000599,E14000599,A70,Kerry McCarthy,103
+Bristol North West,E14000600,E14000600,A71,Charlotte Leslie,17
+Bristol South,E14000601,E14000601,A72,Karin Smyth,56
+Bristol West,E14000602,E14000602,A73,Thangam Debbonaire,54
+Broadland,E14000603,E14000603,A74,Keith Simpson,25
+Bromley and Chislehurst,E14000604,E14000604,A75,Robert Neill,114
+Bromsgrove,E14000605,E14000605,A76,Sajid Javid,28
+Broxbourne,E14000606,E14000606,A77,Charles Walker,36
+Broxtowe,E14000607,E14000607,A78,Anna Soubry,108
+Buckingham,E14000608,E14000608,A79,#N/A,#N/A
+Burnley,E14000609,E14000609,A80,Julie Cooper,54
+Burton,E14000610,E14000610,A81,Andrew Griffiths,27
+Bury North,E14000611,E14000611,A82,David Nuttall,299
+Bury South,E14000612,E14000612,A83,Ivan Lewis,16
+Bury St Edmunds,E14000613,E14000613,A84,Jo Churchill,94
+Calder Valley,E14000614,E14000614,A85,Craig Whittaker,59
+Camberwell and Peckham,E14000615,E14000615,A86,Harriet Harman,30
+Camborne and Redruth,E14000616,E14000616,A87,George Eustice,37
+Cambridge,E14000617,E14000617,A88,Daniel Zeichner,131
+Cannock Chase,E14000618,E14000618,A89,Amanda Milling,105
+Canterbury,E14000619,E14000619,A90,Julian Brazier,52
+Carlisle,E14000620,E14000620,A91,John Stevenson,52
+Carshalton and Wallington,E14000621,E14000621,A92,Tom Brake,263
+Castle Point,E14000622,E14000622,A93,Rebecca Harris,35
+Central Devon,E14000623,E14000623,A94,#N/A,#N/A
+Central Suffolk and North Ipswich,E14000624,E14000624,A95,Dan Poulter,58
+Charnwood,E14000625,E14000625,A96,Edward Argar,65
+Chatham and Aylesford,E14000626,E14000626,A97,Tracey Crouch,29
+Cheadle,E14000627,E14000627,A98,Mary Robinson,49
+Chelmsford,E14000628,E14000628,A99,Simon Burns,94
+Chelsea and Fulham,E14000629,E14000629,B01,Greg Hands,22
+Cheltenham,E14000630,E14000630,B02,Alex Chalk,146
+Chesham and Amersham,E14000631,E14000631,B03,Cheryl Gillan,126
+Chesterfield,E14000632,E14000632,B04,Toby Perkins,78
+Chichester,E14000633,E14000633,B05,Andrew Tyrie,47
+Chingford and Woodford Green,E14000634,E14000634,B06,Iain Duncan Smith,28
+Chippenham,E14000635,E14000635,B07,Michelle Donelan,75
+Chipping Barnet,E14000636,E14000636,B08,Theresa Villiers,64
+Chorley,E14000637,E14000637,B09,#N/A,#N/A
+Christchurch,E14000638,E14000638,B10,Christopher Chope,124
+Cities of London and Westminster,E14000639,E14000639,B11,Mark Field,70
+City of Chester,E14000640,E14000640,B12,Christian Matheson,137
+City of Durham,E14000641,E14000641,B13,Roberta Blackman-Woods,64
+Clacton,E14000642,E14000642,B14,Douglas Carswell,63
+Cleethorpes,E14000643,E14000643,B15,Martin Vickers,176
+Colchester,E14000644,E14000644,B16,Will Quince,74
+Colne Valley,E14000645,E14000645,B17,Jason McCartney,130
+Congleton,E14000646,E14000646,B18,Fiona Bruce,130
+Copeland,E14000647,E14000647,B19,Jamie Reed,26
+Corby,E14000648,E14000648,B20,Tom Pursglove,254
+Coventry North East,E14000649,E14000649,B21,Colleen Fletcher,29
+Coventry North West,E14000650,E14000650,B22,Geoffrey Robinson,13
+Coventry South,E14000651,E14000651,B23,Jim Cunningham,209
+Crawley,E14000652,E14000652,B24,Henry Smith,161
+Crewe and Nantwich,E14000653,E14000653,B25,Edward Timpson,24
+Croydon Central,E14000654,E14000654,B26,Gavin Barwell,21
+Croydon North,E14000655,E14000655,B27,Steve Reed,46
+Croydon South,E14000656,E14000656,B28,Chris Philp,71
+Dagenham and Rainham,E14000657,E14000657,B29,Jon Cruddas,7
+Darlington,E14000658,E14000658,B30,Jenny Chapman,72
+Dartford,E14000659,E14000659,B31,Gareth Johnson,53
+Daventry,E14000660,E14000660,B32,Chris Heaton-Harris,46
+Denton and Reddish,E14000661,E14000661,B33,Andrew Gwynne,293
+Derby North,E14000662,E14000662,B34,Amanda Solloway,54
+Derby South,E14000663,E14000663,B35,Margaret Beckett,5
+Derbyshire Dales,E14000664,E14000664,B36,Patrick McLoughlin,17
+Devizes,E14000665,E14000665,B37,Claire Perry,47
+Dewsbury,E14000666,E14000666,B38,Paula Sherriff,152
+Don Valley,E14000667,E14000667,B39,Caroline Flint,72
+Doncaster Central,E14000668,E14000668,B40,Rosie Winterton,35
+Doncaster North,E14000669,E14000669,B41,Edward Miliband,26
+Dover,E14000670,E14000670,B42,Charlie Elphicke,47
+Dudley North,E14000671,E14000671,B43,Ian Austin,68
+Dudley South,E14000672,E14000672,B44,Mike Wood,119
+Dulwich and West Norwood,E14000673,E14000673,B45,Helen Hayes,89
+Ealing Central and Acton,E14000674,E14000674,B46,Rupa Huq,138
+Ealing North,E14000675,E14000675,B47,Stephen Pound,84
+"Ealing, Southall",E14000676,E14000676,B48,Virendra Sharma,25
+Easington,E14000677,E14000677,B49,Grahame Morris,30
+East Devon,E14000678,E14000678,B50,Hugo Swire,49
+East Ham,E14000679,E14000679,B51,Stephen Timms,116
+East Hampshire,E14000680,E14000680,B52,Damian Hinds,42
+East Surrey,E14000681,E14000681,B53,Sam Gyimah,37
+East Worthing and Shoreham,E14000682,E14000682,B54,Tim Loughton,100
+East Yorkshire,E14000683,E14000683,B55,Greg Knight,36
+Eastbourne,E14000684,E14000684,B56,Caroline Ansell,47
+Eastleigh,E14000685,E14000685,B57,Mims Davies,142
+Eddisbury,E14000686,E14000686,B58,Antoinette Sandbach,102
+Edmonton,E14000687,E14000687,B59,Kate Osamor,50
+Ellesmere Port and Neston,E14000688,E14000688,B60,Justin Madders,130
+Elmet and Rothwell,E14000689,E14000689,B61,Alec Shelbrooke,72
+Eltham,E14000690,E14000690,B62,Clive Efford,110
+Enfield North,E14000691,E14000691,B63,Joan Ryan,95
+"Enfield, Southgate",E14000692,E14000692,B64,David Burrowes,150
+Epping Forest,E14000693,E14000693,B65,#N/A,#N/A
+Epsom and Ewell,E14000694,E14000694,B66,Chris Grayling,79
+Erewash,E14000695,E14000695,B67,Maggie Throup,97
+Erith and Thamesmead,E14000696,E14000696,B68,Teresa Pearce,31
+Esher and Walton,E14000697,E14000697,B69,Dominic Raab,35
+Exeter,E14000698,E14000698,B70,Ben Bradshaw,119
+Fareham,E14000699,E14000699,B71,Suella Fernandes,111
+Faversham and Mid Kent,E14000700,E14000700,B72,Helen Whately,135
+Feltham and Heston,E14000701,E14000701,B73,Seema Malhotra,79
+Filton and Bradley Stoke,E14000702,E14000702,B74,Jack Lopresti,60
+Finchley and Golders Green,E14000703,E14000703,B75,Mike Freer,41
+Folkestone and Hythe,E14000704,E14000704,B76,Damian Collins,46
+Forest of Dean,E14000705,E14000705,B77,Mark Harper,20
+Fylde,E14000706,E14000706,B78,Mark Menzies,58
+Gainsborough,E14000707,E14000707,B79,Edward Leigh,197
+Garston and Halewood,E14000708,E14000708,B80,Maria Eagle,42
+Gateshead,E14000709,E14000709,B81,Ian Mearns,66
+Gedling,E14000710,E14000710,B82,Vernon Coaker,44
+Gillingham and Rainham,E14000711,E14000711,B83,Rehman Chishti,105
+Gloucester,E14000712,E14000712,B84,Richard Graham,127
+Gosport,E14000713,E14000713,B85,Caroline Dinenage,47
+Grantham and Stamford,E14000714,E14000714,B86,Nick Boles,45
+Gravesham,E14000715,E14000715,B87,Adam Holloway,10
+Great Grimsby,E14000716,E14000716,B88,Melanie Onn,116
+Great Yarmouth,E14000717,E14000717,B89,Brandon Lewis,53
+Greenwich and Woolwich,E14000718,E14000718,B90,Matthew Pennycook,62
+Guildford,E14000719,E14000719,B91,Anne Milton,1
+Hackney North and Stoke Newington,E14000720,E14000720,B92,Diane Abbott,67
+Hackney South and Shoreditch,E14000721,E14000721,B93,Meg Hillier,66
+Halesowen and Rowley Regis,E14000722,E14000722,B94,James Morris,66
+Halifax,E14000723,E14000723,B95,Holly Lynch,48
+Haltemprice and Howden,E14000724,E14000724,B96,David Davis,53
+Halton,E14000725,E14000725,B97,Derek Twigg,87
+Hammersmith,E14000726,E14000726,B98,Andy Slaughter,175
+Hampstead and Kilburn,E14000727,E14000727,B99,Tulip Siddiq,62
+Harborough,E14000728,E14000728,C01,Edward Garnier,50
+Harlow,E14000729,E14000729,C02,Robert Halfon,19
+Harrogate and Knaresborough,E14000730,E14000730,C03,Andrew Jones,54
+Harrow East,E14000731,E14000731,C04,Bob Blackman,216
+Harrow West,E14000732,E14000732,C05,Gareth Thomas,57
+Hartlepool,E14000733,E14000733,C06,Iain Wright,70
+Harwich and North Essex,E14000734,E14000734,C07,Bernard Jenkin,89
+Hastings and Rye,E14000735,E14000735,C08,Amber Rudd,26
+Havant,E14000736,E14000736,C09,Alan Mak,121
+Hayes and Harlington,E14000737,E14000737,C10,John McDonnell,56
+Hazel Grove,E14000738,E14000738,C11,William Wragg,60
+Hemel Hempstead,E14000739,E14000739,C12,Mike Penning,50
+Hemsworth,E14000740,E14000740,C13,Jon Trickett,14
+Hendon,E14000741,E14000741,C14,Matthew Offord,51
+Henley,E14000742,E14000742,C15,John Howell,119
+Hereford and South Herefordshire,E14000743,E14000743,C16,Jesse Norman,33
+Hertford and Stortford,E14000744,E14000744,C17,Mark Prisk,28
+Hertsmere,E14000745,E14000745,C18,Oliver Dowden,62
+Hexham,E14000746,E14000746,C19,Guy Opperman,3
+Heywood and Middleton,E14000747,E14000747,C20,Liz McInnes,214
+High Peak,E14000748,E14000748,C21,Andrew Bingham,65
+Hitchin and Harpenden,E14000749,E14000749,C22,Peter Lilley,44
+Holborn and St Pancras,E14000750,E14000750,C23,Keir Starmer,70
+Hornchurch and Upminster,E14000751,E14000751,C24,Angela Watkinson,27
+Hornsey and Wood Green,E14000752,E14000752,C25,Catherine West,127
+Horsham,E14000753,E14000753,C26,Jeremy Quin,91
+Houghton and Sunderland South,E14000754,E14000754,C27,Bridget Phillipson,31
+Hove,E14000755,E14000755,C28,Peter Kyle,87
+Huddersfield,E14000756,E14000756,C29,Barry Sheerman,285
+Huntingdon,E14000757,E14000757,C30,Jonathan Djanogly,34
+Hyndburn,E14000758,E14000758,C31,Graham Jones,88
+Ilford North,E14000759,E14000759,C32,Wes Streeting,133
+Ilford South,E14000760,E14000760,C33,Mike Gapes,77
+Ipswich,E14000761,E14000761,C34,Ben Gummer,51
+Isle of Wight,E14000762,E14000762,C35,Andrew Turner,81
+Islington North,E14000763,E14000763,C36,Jeremy Corbyn,109
+Islington South and Finsbury,E14000764,E14000764,C37,Emily Thornberry,77
+Jarrow,E14000765,E14000765,C38,Stephen Hepburn,22
+Keighley,E14000766,E14000766,C39,Kris Hopkins,10
+Kenilworth and Southam,E14000767,E14000767,C40,Jeremy Wright,13
+Kensington,E14000768,E14000768,C41,Victoria Borwick,26
+Kettering,E14000769,E14000769,C42,Philip Hollobone,323
+Kingston and Surbiton,E14000770,E14000770,C43,James Berry,131
+Kingston upon Hull East,E14000771,E14000771,C44,Karl Turner,40
+Kingston upon Hull North,E14000772,E14000772,C45,Diana Johnson,262
+Kingston upon Hull West and Hessle,E14000773,E14000773,C46,Alan Johnson,9
+Kingswood,E14000774,E14000774,C47,Chris Skidmore,26
+Knowsley,E14000775,E14000775,C48,George Howarth,71
+Lancaster and Fleetwood,E14000776,E14000776,C49,Cat Smith,108
+Leeds Central,E14000777,E14000777,C50,Hilary Benn,49
+Leeds East,E14000778,E14000778,C51,Richard Burgon,45
+Leeds North East,E14000779,E14000779,C52,Fabian Hamilton,30
+Leeds North West,E14000780,E14000780,C53,Greg Mulholland,162
+Leeds West,E14000781,E14000781,C54,Rachel Reeves,33
+Leicester East,E14000782,E14000782,C55,Keith Vaz,204
+Leicester South,E14000783,E14000783,C56,Jonathan Ashworth,37
+Leicester West,E14000784,E14000784,C57,Liz Kendall,39
+Leigh,E14000785,E14000785,C58,Andy Burnham,75
+Lewes,E14000786,E14000786,C59,Maria Caulfield,108
+Lewisham East,E14000787,E14000787,C60,Heidi Alexander,69
+Lewisham West and Penge,E14000788,E14000788,C61,Jim Dowd,18
+"Lewisham, Deptford",E14000789,E14000789,C62,Vicky Foxcroft,47
+Leyton and Wanstead,E14000790,E14000790,C63,John Cryer,37
+Lichfield,E14000791,E14000791,C64,Michael Fabricant,161
+Lincoln,E14000792,E14000792,C65,Karl McCartney,51
+"Liverpool, Riverside",E14000793,E14000793,C66,Louise Ellman,58
+"Liverpool, Walton",E14000794,E14000794,C67,Steve Rotheram,27
+"Liverpool, Wavertree",E14000795,E14000795,C68,Luciana Berger,81
+"Liverpool, West Derby",E14000796,E14000796,C69,Stephen Twigg,69
+Loughborough,E14000797,E14000797,C70,Nicky Morgan,54
+Louth and Horncastle,E14000798,E14000798,C71,Victoria Atkins,80
+Ludlow,E14000799,E14000799,C72,Philip Dunne,41
+Luton North,E14000800,E14000800,C73,Kelvin Hopkins,120
+Luton South,E14000801,E14000801,C74,Gavin Shuker,29
+Macclesfield,E14000802,E14000802,C75,David Rutley,138
+Maidenhead,E14000803,E14000803,C76,Theresa May,64
+Maidstone and The Weald,E14000804,E14000804,C77,Helen Grant,37
+Makerfield,E14000805,E14000805,C78,Yvonne Fovargue,52
+Maldon,E14000806,E14000806,C79,John Whittingdale,34
+Manchester Central,E14000807,E14000807,C80,Lucy Powell,40
+"Manchester, Gorton",E14000808,E14000808,C81,Gerald Kaufman,24
+"Manchester, Withington",E14000809,E14000809,C82,Jeff Smith,71
+Mansfield,E14000810,E14000810,C83,Alan Meale,5
+Meon Valley,E14000811,E14000811,C84,#N/A,#N/A
+Meriden,E14000812,E14000812,C85,Caroline Spelman,85
+Mid Bedfordshire,E14000813,E14000813,C86,Nadine Dorries,13
+Mid Derbyshire,E14000814,E14000814,C87,Pauline Latham,93
+Mid Dorset and North Poole,E14000815,E14000815,C88,Michael Tomlinson,132
+Mid Norfolk,E14000816,E14000816,C89,George Freeman,45
+Mid Sussex,E14000817,E14000817,C90,Nicholas Soames,51
+Mid Worcestershire,E14000818,E14000818,C91,Nigel Huddleston,112
+Middlesbrough,E14000819,E14000819,C92,Andy McDonald,68
+Middlesbrough South and East Cleveland,E14000820,E14000820,C93,Tom Blenkinsop,91
+Milton Keynes North,E14000821,E14000821,C94,Mark Lancaster,34
+Milton Keynes South,E14000822,E14000822,C95,Iain Stewart,63
+Mitcham and Morden,E14000823,E14000823,C96,Siobhain McDonagh,48
+Mole Valley,E14000824,E14000824,C97,Paul Beresford,25
+Morecambe and Lunesdale,E14000825,E14000825,C98,David Morris,69
+Morley and Outwood,E14000826,E14000826,C99,Andrea Jenkyns,53
+New Forest East,E14000827,E14000827,D01,Julian Lewis,131
+New Forest West,E14000828,E14000828,D02,Desmond Swayne,104
+Newark,E14000829,E14000829,D03,Robert Jenrick,142
+Newbury,E14000830,E14000830,D04,Richard Benyon,60
+Newcastle upon Tyne Central,E14000831,E14000831,D05,Chi Onwurah,115
+Newcastle upon Tyne East,E14000832,E14000832,D06,Nicholas Brown,24
+Newcastle upon Tyne North,E14000833,E14000833,D07,Catherine McKinnell,76
+Newcastle-under-Lyme,E14000834,E14000834,D08,Paul Farrelly,33
+Newton Abbot,E14000835,E14000835,D09,Anne Marie Morris,24
+"Normanton, Pontefract and Castleford",E14000836,E14000836,D10,Yvette Cooper,78
+North Cornwall,E14000837,E14000837,D11,Scott Mann,65
+North Devon,E14000838,E14000838,D12,Peter Heaton-Jones,65
+North Dorset,E14000839,E14000839,D13,Simon Hoare,152
+North Durham,E14000840,E14000840,D14,Kevan Jones,82
+North East Bedfordshire,E14000841,E14000841,D15,Alistair Burt,83
+North East Cambridgeshire,E14000842,E14000842,D16,Stephen Barclay,6
+North East Derbyshire,E14000843,E14000843,D17,#N/A,#N/A
+North East Hampshire,E14000844,E14000844,D18,Ranil Jayawardena,65
+North East Hertfordshire,E14000845,E14000845,D19,Oliver Heald,50
+North East Somerset,E14000846,E14000846,D20,Jacob Rees-Mogg,97
+North Herefordshire,E14000847,E14000847,D21,Bill Wiggin,36
+North Norfolk,E14000848,E14000848,D22,Norman Lamb,74
+North Shropshire,E14000849,E14000849,D23,Owen Paterson,33
+North Somerset,E14000850,E14000850,D24,Liam Fox,62
+North Swindon,E14000851,E14000851,D25,Justin Tomlinson,83
+North Thanet,E14000852,E14000852,D26,Roger Gale,36
+North Tyneside,E14000853,E14000853,D27,Mary Glindon,60
+North Warwickshire,E14000854,E14000854,D28,Craig Tracey,43
+North West Cambridgeshire,E14000855,E14000855,D29,Shailesh Vara,48
+North West Durham,E14000856,E14000856,D30,Pat Glass,40
+North West Hampshire,E14000857,E14000857,D31,Kit Malthouse,84
+North West Leicestershire,E14000858,E14000858,D32,Andrew Bridgen,154
+North West Norfolk,E14000859,E14000859,D33,Henry Bellingham,80
+North Wiltshire,E14000860,E14000860,D34,James Gray,63
+Northampton North,E14000861,E14000861,D35,Michael Ellis,33
+Northampton South,E14000862,E14000862,D36,David Mackintosh,36
+Norwich North,E14000863,E14000863,D37,Chloe Smith,67
+Norwich South,E14000864,E14000864,D38,Clive Lewis,56
+Nottingham East,E14000865,E14000865,D39,Chris Leslie,76
+Nottingham North,E14000866,E14000866,D40,Graham Allen,60
+Nottingham South,E14000867,E14000867,D41,Lilian Greenwood,89
+Nuneaton,E14000868,E14000868,D42,Marcus Jones,62
+Old Bexley and Sidcup,E14000869,E14000869,D43,James Brokenshire,49
+Oldham East and Saddleworth,E14000870,E14000870,D44,Debbie Abrahams,138
+Oldham West and Royton,E14000871,E14000871,D45,Jim McMahon,47
+Orpington,E14000872,E14000872,D46,Joseph Johnson,37
+Oxford East,E14000873,E14000873,D47,Andrew Smith,44
+Oxford West and Abingdon,E14000874,E14000874,D48,Nicola Blackwood,51
+Pendle,E14000875,E14000875,D49,Andrew Stephenson,143
+Penistone and Stocksbridge,E14000876,E14000876,D50,Angela Smith,81
+Penrith and The Border,E14000877,E14000877,D51,Rory Stewart,34
+Peterborough,E14000878,E14000878,D52,Stewart Jackson,113
+"Plymouth, Moor View",E14000879,E14000879,D53,Johnny Mercer,44
+"Plymouth, Sutton and Devonport",E14000880,E14000880,D54,Oliver Colvile,140
+Poole,E14000881,E14000881,D55,Robert Syms,9
+Poplar and Limehouse,E14000882,E14000882,D56,Jim Fitzpatrick,52
+Portsmouth North,E14000883,E14000883,D57,Penny Mordaunt,27
+Portsmouth South,E14000884,E14000884,D58,Flick Drummond,100
+Preston,E14000885,E14000885,D59,Mark Hendrick,17
+Pudsey,E14000886,E14000886,D60,Stuart Andrew,55
+Putney,E14000887,E14000887,D61,Justine Greening,34
+Rayleigh and Wickford,E14000888,E14000888,D62,Mark Francois,10
+Reading East,E14000889,E14000889,D63,Rob Wilson,29
+Reading West,E14000890,E14000890,D64,Alok Sharma,17
+Redcar,E14000891,E14000891,D65,Anna Turley,83
+Redditch,E14000892,E14000892,D66,Karen Lumley,39
+Reigate,E14000893,E14000893,D67,Crispin Blunt,111
+Ribble Valley,E14000894,E14000894,D68,Nigel Evans,106
+Richmond (Yorks),E14000895,E14000895,D69,Rishi Sunak,52
+Richmond Park,E14000896,E14000896,D70,Zac Goldsmith,15
+Rochdale,E14000897,E14000897,D71,Simon Danczuk,67
+Rochester and Strood,E14000898,E14000898,D72,Kelly Tolhurst,60
+Rochford and Southend East,E14000899,E14000899,D73,James Duddridge,49
+Romford,E14000900,E14000900,D74,Andrew Rosindell,38
+Romsey and Southampton North,E14000901,E14000901,D75,Caroline Nokes,63
+Rossendale and Darwen,E14000902,E14000902,D76,Jake Berry,96
+Rother Valley,E14000903,E14000903,D77,Kevin Barron,34
+Rotherham,E14000904,E14000904,D78,Sarah Champion,52
+Rugby,E14000905,E14000905,D79,Mark Pawsey,105
+"Ruislip, Northwood and Pinner",E14000906,E14000906,D80,Nick Hurd,28
+Runnymede and Weybridge,E14000907,E14000907,D81,Philip Hammond,27
+Rushcliffe,E14000908,E14000908,D82,Kenneth Clarke,75
+Rutland and Melton,E14000909,E14000909,D83,Alan Duncan,37
+Saffron Walden,E14000910,E14000910,D84,Alan Haselhurst,41
+Salford and Eccles,E14000911,E14000911,D85,Rebecca Long Bailey,52
+Salisbury,E14000912,E14000912,D86,John Glen,99
+Scarborough and Whitby,E14000913,E14000913,D87,Robert Goodwill,48
+Scunthorpe,E14000914,E14000914,D88,Nic Dakin,156
+Sedgefield,E14000915,E14000915,D89,Phil Wilson,29
+Sefton Central,E14000916,E14000916,D90,Bill Esterson,109
+Selby and Ainsty,E14000917,E14000917,D91,Nigel Adams,51
+Sevenoaks,E14000918,E14000918,D92,Michael Fallon,26
+Sheffield Central,E14000919,E14000919,D93,Paul Blomfield,85
+Sheffield South East,E14000920,E14000920,D94,Clive Betts,86
+"Sheffield, Brightside and Hillsborough",E14000921,E14000921,D95,Gill Furniss,23
+"Sheffield, Hallam",E14000922,E14000922,D96,Nick Clegg,18
+"Sheffield, Heeley",E14000923,E14000923,D97,Louise Haigh,115
+Sherwood,E14000924,E14000924,D98,Mark Spencer,76
+Shipley,E14000925,E14000925,D99,Philip Davies,254
+Shrewsbury and Atcham,E14000926,E14000926,E01,Daniel Kawczynski,63
+Sittingbourne and Sheppey,E14000927,E14000927,E02,Gordon Henderson,25
+Skipton and Ripon,E14000928,E14000928,E03,#N/A,#N/A
+Sleaford and North Hykeham,E14000929,E14000929,E04,Caroline Johnson,7
+Slough,E14000930,E14000930,E05,Fiona Mactaggart,148
+Solihull,E14000931,E14000931,E06,Julian Knight,115
+Somerton and Frome,E14000932,E14000932,E07,David Warburton,38
+South Basildon and East Thurrock,E14000933,E14000933,E08,Stephen Metcalfe,57
+South Cambridgeshire,E14000934,E14000934,E09,Heidi Allen,73
+South Derbyshire,E14000935,E14000935,E10,Heather Wheeler,20
+South Dorset,E14000936,E14000936,E11,Richard Drax,103
+South East Cambridgeshire,E14000937,E14000937,E12,Lucy Frazer,122
+South East Cornwall,E14000938,E14000938,E13,Sheryll Murray,62
+South Holland and The Deepings,E14000939,E14000939,E14,John Hayes,35
+South Leicestershire,E14000940,E14000940,E15,Alberto Costa,58
+South Norfolk,E14000941,E14000941,E16,Richard Bacon,26
+South Northamptonshire,E14000942,E14000942,E17,Andrea Leadsom,41
+South Ribble,E14000943,E14000943,E18,Seema Kennedy,98
+South Shields,E14000944,E14000944,E19,Emma Lewell-Buck,59
+South Staffordshire,E14000945,E14000945,E20,Gavin Williamson,5
+South Suffolk,E14000946,E14000946,E21,James Cartlidge,107
+South Swindon,E14000947,E14000947,E22,Robert Buckland,23
+South Thanet,E14000948,E14000948,E23,Craig Mackinlay,51
+South West Bedfordshire,E14000949,E14000949,E24,Andrew Selous,71
+South West Devon,E14000950,E14000950,E25,Gary Streeter,26
+South West Hertfordshire,E14000951,E14000951,E26,David Gauke,47
+South West Norfolk,E14000952,E14000952,E27,Elizabeth Truss,22
+South West Surrey,E14000953,E14000953,E28,Jeremy Hunt,37
+South West Wiltshire,E14000954,E14000954,E29,Andrew Murrison,167
+"Southampton, Itchen",E14000955,E14000955,E30,Royston Smith,16
+"Southampton, Test",E14000956,E14000956,E31,Alan Whitehead,47
+Southend West,E14000957,E14000957,E32,David Amess,107
+Southport,E14000958,E14000958,E33,John Pugh,95
+Spelthorne,E14000959,E14000959,E34,Kwasi Kwarteng,38
+St Albans,E14000960,E14000960,E35,Anne Main,79
+St Austell and Newquay,E14000961,E14000961,E36,Steve Double,91
+St Helens North,E14000962,E14000962,E37,Conor McGinn,61
+St Helens South and Whiston,E14000963,E14000963,E38,Marie Rimmer,59
+St Ives,E14000964,E14000964,E39,Derek Thomas,48
+Stafford,E14000965,E14000965,E40,Jeremy Lefroy,188
+Staffordshire Moorlands,E14000966,E14000966,E41,Karen Bradley,44
+Stalybridge and Hyde,E14000967,E14000967,E42,Jonathan Reynolds,116
+Stevenage,E14000968,E14000968,E43,Stephen McPartland,24
+Stockport,E14000969,E14000969,E44,Ann Coffey,23
+Stockton North,E14000970,E14000970,E45,Alex Cunningham,118
+Stockton South,E14000971,E14000971,E46,James Wharton,34
+Stoke-on-Trent Central,E14000972,E14000972,E47,Tristram Hunt,52
+Stoke-on-Trent North,E14000973,E14000973,E48,Ruth Smeeth,55
+Stoke-on-Trent South,E14000974,E14000974,E49,Robert Flello,71
+Stone,E14000975,E14000975,E50,William Cash,90
+Stourbridge,E14000976,E14000976,E51,Margot James,17
+Stratford-on-Avon,E14000977,E14000977,E52,Nadhim Zahawi,38
+Streatham,E14000978,E14000978,E53,Chuka Umunna,40
+Stretford and Urmston,E14000979,E14000979,E54,Kate Green,116
+Stroud,E14000980,E14000980,E55,Neil Carmichael,115
+Suffolk Coastal,E14000981,E14000981,E56,Therese Coffey,53
+Sunderland Central,E14000982,E14000982,E57,Julie Elliott,39
+Surrey Heath,E14000983,E14000983,E58,Michael Gove,46
+Sutton and Cheam,E14000984,E14000984,E59,Paul Scully,58
+Sutton Coldfield,E14000985,E14000985,E60,Andrew Mitchell,44
+Tamworth,E14000986,E14000986,E61,Christopher Pincher,52
+Tatton,E14000987,E14000987,E62,George Osborne,26
+Taunton Deane,E14000988,E14000988,E63,Rebecca Pow,151
+Telford,E14000989,E14000989,E64,Lucy Allan,72
+Tewkesbury,E14000990,E14000990,E65,Laurence Robertson,59
+The Cotswolds,E14000991,E14000991,E66,Geoffrey Clifton-Brown,64
+The Wrekin,E14000992,E14000992,E67,Mark Pritchard,57
+Thirsk and Malton,E14000993,E14000993,E68,Kevin Hollinrake,131
+Thornbury and Yate,E14000994,E14000994,E69,Luke Hall,39
+Thurrock,E14000995,E14000995,E70,#N/A,#N/A
+Tiverton and Honiton,E14000996,E14000996,E71,Neil Parish,75
+Tonbridge and Malling,E14000997,E14000997,E72,Tom Tugendhat,106
+Tooting,E14000998,E14000998,E73,Rosena Allin-Khan,29
+Torbay,E14000999,E14000999,E74,Kevin Foster,278
+Torridge and West Devon,E14001000,E14001000,E75,Geoffrey Cox,12
+Totnes,E14001001,E14001001,E76,Sarah Wollaston,106
+Tottenham,E14001002,E14001002,E77,David Lammy,60
+Truro and Falmouth,E14001003,E14001003,E78,Sarah Newton,14
+Tunbridge Wells,E14001004,E14001004,E79,Greg Clark,30
+Twickenham,E14001005,E14001005,E80,Tania Mathias,117
+Tynemouth,E14001006,E14001006,E81,Alan Campbell,14
+Uxbridge and South Ruislip,E14001007,E14001007,E82,Boris Johnson,25
+Vauxhall,E14001008,E14001008,E83,Kate Hoey,49
+Wakefield,E14001009,E14001009,E84,Mary Creagh,82
+Wallasey,E14001010,E14001010,E85,Angela Eagle,72
+Walsall North,E14001011,E14001011,E86,David Winnick,122
+Walsall South,E14001012,E14001012,E87,Valerie Vaz,105
+Walthamstow,E14001013,E14001013,E88,Stella Creasy,55
+Wansbeck,E14001014,E14001014,E89,Ian Lavery,65
+Wantage,E14001015,E14001015,E90,Edward Vaizey,69
+Warley,E14001016,E14001016,E91,John Spellar,45
+Warrington North,E14001017,E14001017,E92,Helen Jones,55
+Warrington South,E14001018,E14001018,E93,David Mowat,119
+Warwick and Leamington,E14001019,E14001019,E94,Chris White,59
+Washington and Sunderland West,E14001020,E14001020,E95,Sharon Hodgson,71
+Watford,E14001021,E14001021,E96,Richard Harrington,34
+Waveney,E14001022,E14001022,E97,Peter Aldous,85
+Wealden,E14001023,E14001023,E98,Nusrat Ghani,105
+Weaver Vale,E14001024,E14001024,E99,Graham Evans,94
+Wellingborough,E14001025,E14001025,F01,Peter Bone,269
+Wells,E14001026,E14001026,F02,James Heappey,71
+Welwyn Hatfield,E14001027,E14001027,F03,Grant Shapps,7
+Wentworth and Dearne,E14001028,E14001028,F04,John Healey,36
+West Bromwich East,E14001029,E14001029,F05,Tom Watson,20
+West Bromwich West,E14001030,E14001030,F06,Adrian Bailey,46
+West Dorset,E14001031,E14001031,F07,Oliver Letwin,28
+West Ham,E14001032,E14001032,F08,Lyn Brown,67
+West Lancashire,E14001033,E14001033,F09,Rosie Cooper,24
+West Suffolk,E14001034,E14001034,F10,Matt Hancock,34
+West Worcestershire,E14001035,E14001035,F11,Harriett Baldwin,39
+Westminster North,E14001036,E14001036,F12,Karen Buck,72
+Westmorland and Lonsdale,E14001037,E14001037,F13,Tim Farron,66
+Weston-Super-Mare,E14001038,E14001038,F14,John Penrose,41
+Wigan,E14001039,E14001039,F15,Lisa Nandy,26
+Wimbledon,E14001040,E14001040,F16,Stephen Hammond,79
+Winchester,E14001041,E14001041,F17,Steve Brine,44
+Windsor,E14001042,E14001042,F18,Adam Afriyie,11
+Wirral South,E14001043,E14001043,F19,Alison McGovern,116
+Wirral West,E14001044,E14001044,F20,Margaret Greenwood,100
+Witham,E14001045,E14001045,F21,Priti Patel,36
+Witney,E14001046,E14001046,F22,David Cameron,59
+Woking,E14001047,E14001047,F23,Jonathan Lord,11
+Wokingham,E14001048,E14001048,F24,John Redwood,134
+Wolverhampton North East,E14001049,E14001049,F25,Emma Reynolds,46
+Wolverhampton South East,E14001050,E14001050,F26,Pat McFadden,66
+Wolverhampton South West,E14001051,E14001051,F27,Rob Marris,102
+Worcester,E14001052,E14001052,F28,Robin Walker,87
+Workington,E14001053,E14001053,F29,Sue Hayman,91
+Worsley and Eccles South,E14001054,E14001054,F30,Barbara Keeley,112
+Worthing West,E14001055,E14001055,F31,Peter Bottomley,61
+Wycombe,E14001056,E14001056,F32,Steve Baker,106
+Wyre and Preston North,E14001057,E14001057,F33,Ben Wallace,24
+Wyre Forest,E14001058,E14001058,F34,Mark Garnier,32
+Wythenshawe and Sale East,E14001059,E14001059,F35,Mike Kane,94
+Yeovil,E14001060,E14001060,F36,Marcus Fysh,69
+York Central,E14001061,E14001061,F37,Rachael Maskell,161
+York Outer,E14001062,E14001062,F38,Julian Sturdy,66
