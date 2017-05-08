@@ -37,6 +37,10 @@ div.tooltip {
 //Map dimensions (in pixels)
 var width = 498,
     height = 600;
+  
+  var color = d3.scale.threshold()
+    .domain([30, 60, 90, 120, 150])
+    .range(["#f2f0f7", "#dadaeb", "#bcbddc", "#9e9ac8", "#756bb1", "#54278f"]);
 
 //Map projection
 var projection = d3.geo.mercator()
