@@ -1,64 +1,121 @@
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-        <style>
-.wpcs {
-  fill: none;
-  stroke: #777;
-  stroke-dasharray: 2,2;
-  stroke-linejoin: round;
+<meta charset="utf-8">
+<style>
+
+body {
+  font: 12px sans-serif;
 }
 
-.wpcs-label {
-  fill: #444;
+path {
+  stroke-width: 1px;
+  stroke: white;
+  fill: steelblue;
+  cursor: pointer;
 }
 
-text {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 10px;
-  pointer-events: none;
+path:hover, path.highlighted {
+  fill: tomato;
 }
+
+div.tooltip {
+  position: absolute;
+  background-color: white;
+  border: 1px solid black;
+  color: black;
+  font-weight: bold;
+  padding: 4px 8px;
+  display: none;
+}
+
 </style>
-    </head>
 <body>
-<script src="//d3js.org/d3.v3.min.js" charset="utf-8"></script>
-<script src="//d3js.org/topojson.v1.min.js"></script>
+<script src="http://d3js.org/d3.v3.min.js"></script>
+<script src="http://d3js.org/topojson.v1.min.js"></script>
 <script>
-    
-var width = 960,
-    height = 1160;
 
+//Map dimensions (in pixels)
+var width = 498,
+    height = 600;
+
+//Map projection
+var projection = d3.geo.mercator()
+    .scale(3311.0206981505453)
+    .center([-2.3274110175636986,52.9399138661944]) //projection center
+    .translate([width/2,height/2]) //translate to center the map in view
+
+//Generate paths based on projection
+var path = d3.geo.path()
+    .projection(projection);
+
+//Create an SVG
 var svg = d3.select("body").append("svg")
     .attr("width", width)
     .attr("height", height);
 
-d3.json("topojsonwpc.json", function(error, uk) {
-  if (error) return console.error(error);
-    
-var wpc = topojson.feature(uk, uk.objects.wpc);
-    
- var projection = d3.geo.mercator();
-    
-var path = d3.geo.path()
-    .projection(projection);
-        
-svg.append("path")
-    .datum(topojson.mesh(uk, uk.objects.wpc))
-    .attr("d", path)
-    .attr("class", "wpcs")
-    
-    
-svg.selectAll(".wpcs-label")
-    .data(topojson.feature(uk, uk.objects.wpc).features)
-   .enter().append("text")
-    .attr("class", function(d) { return "wpcs-label " + d.id; })
-    .attr("transform", function(d) { return "translate(" + path.centroid(d) + ")"; })
-    .attr("dy", ".35em")
-    .attr("d", path)
-    .text(function(d) { return d.properties.PCON13NM; });
- 
-    
+//Group for the map features
+var features = svg.append("g")
+    .attr("class","features");
+
+//Create zoom/pan listener
+//Change [1,Infinity] to adjust the min/max zoom scale
+var zoom = d3.behavior.zoom()
+    .scaleExtent([1, Infinity])
+    .on("zoom",zoomed);
+
+svg.call(zoom);
+
+//Create a tooltip, hidden at the start
+var tooltip = d3.select("body").append("div").attr("class","tooltip");
+
+d3.json("topjsonwpc.json",function(error,geodata) {
+  if (error) return console.log(error); //unknown error, check the console
+
+  //Create a path for each map feature in the data
+  features.selectAll("path")
+    .data(topojson.feature(geodata,geodata.objects.wpc).features) //generate features from TopoJSON
+    .enter()
+    .append("path")
+    .attr("d",path)
+    .on("mouseover",showTooltip)
+    .on("mousemove",moveTooltip)
+    .on("mouseout",hideTooltip)
+    .on("click",clicked);
+
 });
 
+// Add optional onClick events for features here
+// d.properties contains the attributes (e.g. d.properties.name, d.properties.population)
+function clicked(d,i) {
+
+}
+
+
+//Update map on zoom/pan
+function zoomed() {
+  features.attr("transform", "translate(" + zoom.translate() + ")scale(" + zoom.scale() + ")")
+      .selectAll("path").style("stroke-width", 1 / zoom.scale() + "px" );
+}
+
+
+//Position of the tooltip relative to the cursor
+var tooltipOffset = {x: 5, y: -25};
+
+//Create a tooltip, hidden at the start
+function showTooltip(d) {
+  moveTooltip();
+
+  tooltip.style("display","block")
+      .text(d.properties.PCON13NM);
+}
+
+//Move the tooltip to track the mouse
+function moveTooltip() {
+  tooltip.style("top",(d3.event.pageY+tooltipOffset.y)+"px")
+      .style("left",(d3.event.pageX+tooltipOffset.x)+"px");
+}
+
+//Create a tooltip, hidden at the start
+function hideTooltip() {
+  tooltip.style("display","none");
+}
 </script>
-<html>
