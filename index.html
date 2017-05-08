@@ -35,7 +35,6 @@ div.tooltip {
 <script src="https://d3js.org/d3.v3.min.js"></script>
   <script src="//d3js.org/queue.v1.min.js"></script>
 <script src="https://d3js.org/topojson.v1.min.js"></script>
-  <script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
 <script>
 
 //Map dimensions (in pixels)
@@ -43,10 +42,8 @@ var width = 750,
     height = 900;
   
   var color = d3.scale.threshold()
-    //.domain([30, 60, 90, 120, 150])
-    //.range(["#f2f0f7", "#dadaeb", "#bcbddc", "#9e9ac8", "#756bb1", "#54278f"]);
-      .domain(d3.range(2, 10))
-    .range(d3.schemeBlues[9]);
+    .domain([30, 60, 90, 120, 150])
+    .range(["#f2f0f7", "#dadaeb", "#bcbddc", "#9e9ac8", "#756bb1", "#54278f"]);
 
 //Map projection
 var projection = d3.geo.mercator()
