@@ -112,7 +112,7 @@ function showTooltip(d) {
   moveTooltip();
 
   tooltip.style("display","block")
-      .text(d.properties.PCON13NM + "</br>" + "MP: " nameById[d.id] + "</br>" + "No. of debates spoken in:" + numberById[d.id]);
+      .text(d.properties.PCON13NM + "</br>" + "MP: " + nameById[d.id] + "</br>" + "No. of debates spoken in:" + numberById[d.id]);
 }
 
 //Move the tooltip to track the mouse
