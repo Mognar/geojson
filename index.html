@@ -38,12 +38,14 @@ div.tooltip {
 <script>
 
 //Map dimensions (in pixels)
-var width = 498,
-    height = 600;
+var width = 750,
+    height = 900;
   
   var color = d3.scale.threshold()
-    .domain([30, 60, 90, 120, 150])
-    .range(["#f2f0f7", "#dadaeb", "#bcbddc", "#9e9ac8", "#756bb1", "#54278f"]);
+    //.domain([30, 60, 90, 120, 150])
+    //.range(["#f2f0f7", "#dadaeb", "#bcbddc", "#9e9ac8", "#756bb1", "#54278f"]);
+      .domain(d3.range(2, 10))
+    .range(d3.schemeBlues[9]);
 
 //Map projection
 var projection = d3.geo.mercator()
