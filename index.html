@@ -67,7 +67,7 @@ svg.call(zoom);
 //Create a tooltip, hidden at the start
 var tooltip = d3.select("body").append("div").attr("class","tooltip");
 
-d3.json("topjsonwpc.json",function(error,geodata) {
+d3.json("topojsonwpc.json",function(error,geodata) {
   if (error) return console.log(error); //unknown error, check the console
 
   //Create a path for each map feature in the data
