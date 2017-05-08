@@ -47,16 +47,20 @@ var wpc = topojson.feature(uk, uk.objects.wpc);
 var path = d3.geo.path()
     .projection(projection);
     
+     svg.append("g")
+      .attr("class", "wpcs")
+    .selectAll("path")
+    .data(topojson.feature(uk, uk.objects.wpcs).features)
+    .enter().append("path")
+    .attr("d", path)
+       .append("title")
+    .text(function(d) { return d.properties.PCON13NM; });
+    
 svg.append("path")
     .datum(topojson.mesh(uk, uk.objects.wpc))
     .attr("d", path)
     .attr("class", "wpcs")
-    .enter().append("path")
-      .attr("class", function(d) { return "wpcs" + d.id; })
-    .attr("transform", function(d) { return "translate(" + path.centroid(d) + ")"; })
-      .attr("d", path)
-    .append("title")
-    .text(function(d) { return d.properties.PCON13NM; });
+    
     
 /*svg.selectAll(".wpcs-label")
     .data(topojson.feature(uk, uk.objects.wpc).features)
