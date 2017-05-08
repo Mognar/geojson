@@ -53,12 +53,12 @@ svg.append("path")
     .attr("class", "wpcs");
     
 svg.append("path")
-    .datum(topojson.feature(uk, uk.objects.crs))
+    .datum(topojson.feature(uk, uk.objects.wpc))
     .attr("d", path)
     .attr("class", "place");
   
  svg.selectAll(".place-label")
-    .data(topojson.feature(uk, uk.objects.crs).features)
+    .data(topojson.feature(uk, uk.objects.wpc).features)
   .enter().append("text")
     .attr("class", "place-label")
     .attr("transform", function(d) { return "translate(" + projection(d.geometry.coordinates) + ")"; })
