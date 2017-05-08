@@ -52,13 +52,13 @@ svg.append("path")
     .attr("d", path)
     .attr("class", "wpcs")
     
-         svg.append("path")
-      .attr("class", "wpcs")
+svg.append("path")
+   .attr("class", "wpcs")
     .selectAll("path")
     .data(topojson.feature(uk, uk.objects.wpc).features)
-    .enter().append("path")
+    .enter().append("text")
     .attr("d", path)
-       .append("title")
+     .append("title")
     .text(function(d) { return d.properties.PCON13NM; });
     
 /*svg.selectAll(".wpcs-label")
