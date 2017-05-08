@@ -91,7 +91,7 @@ var tooltip = d3.select("body").append("div").attr("class","tooltip");
     data1.forEach(function(d) {
         d.Number = +d.Number;
     });    
-    
+   }); 
   //Create a path for each map feature in the data
   features.selectAll("path")
     .data(topojson.feature(topojsonwpc,topojsonwpc.objects.wpc).features) //generate features from TopoJSON
