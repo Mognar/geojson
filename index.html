@@ -30,7 +30,7 @@ var path = d3.geo.path()
     .projection(projection);
     
 svg.append("path")
-    .datum(topojson.mesh(uk, uk.objects.wpc))
+    .datum(topojson.mesh(uk, uk.objects.wpc).features)
     .attr("d", path)
     .attr("class", "crs");
   
