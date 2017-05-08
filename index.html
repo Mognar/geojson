@@ -84,11 +84,12 @@ var tooltip = d3.select("body").append("div").attr("class","tooltip");
   if (error) throw error;
     
     var rateByNumber = {};
+    
+    var oMP = {};
 
   mpgeo.forEach(function(d) { rateByNumber[d.id] = +d.Number; });
     
- mpgeo.forEach(function(d) { d.Number = +d.Number; });
-    
+  mpgeo.forEach(function(d) { oMP[d.id] = d.MP; });  
     
   //Create a path for each map feature in the data
   features.selectAll("path")
@@ -126,7 +127,7 @@ function showTooltip(d) {
   moveTooltip();
 
   tooltip.style("display","block")
-      .text(d.properties.PCON13NM + " " + d.Number);
+      .text(d.properties.PCON13NM + " " + oMP[d.id]);
 }
 
 //Move the tooltip to track the mouse
