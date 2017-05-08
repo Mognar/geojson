@@ -86,7 +86,7 @@ var tooltip = d3.select("body").append("div").attr("class","tooltip");
     var rateByNumber = {};
     var nameById = {};
   mpgeo.forEach(function(d) { rateByNumber[d.id] = +d.Number;
-                            nameById[d.id] = d.MP});
+                            nameById[d.id] = d.MP;});
     
   //Create a path for each map feature in the data
   features.selectAll("path")
