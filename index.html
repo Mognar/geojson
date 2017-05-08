@@ -87,6 +87,11 @@ var tooltip = d3.select("body").append("div").attr("class","tooltip");
 
   mpgeo.forEach(function(d) { rateByNumber[d.id] = +d.Number; });
     
+ d3.csv("mpgeo.csv", function(error, data1) {
+    data1.forEach(function(d) {
+        d.Number = +d.Number;
+    });    
+    
   //Create a path for each map feature in the data
   features.selectAll("path")
     .data(topojson.feature(topojsonwpc,topojsonwpc.objects.wpc).features) //generate features from TopoJSON
@@ -123,7 +128,7 @@ function showTooltip(d) {
   moveTooltip();
 
   tooltip.style("display","block")
-      .text(d.properties.PCON13NM + " " + d.MP + " Number of debates spoken in:" + d.Number);
+      .text(d.properties.PCON13NM + " " + d.Number);
 }
 
 //Move the tooltip to track the mouse
