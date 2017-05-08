@@ -9,7 +9,6 @@ body {
 path {
   stroke-width: 1px;
   stroke: white;
-  fill: steelblue;
   cursor: pointer;
 }
 
@@ -90,7 +89,7 @@ var tooltip = d3.select("body").append("div").attr("class","tooltip");
     
   //Create a path for each map feature in the data
   features.selectAll("path")
-    .data(topojson.feature(geodata,geodata.objects.wpc).features) //generate features from TopoJSON
+    .data(topojson.feature(topojsonwpc,topojsonwpc.objects.wpc).features) //generate features from TopoJSON
     .enter()
     .append("path")
     .attr("d",path)
