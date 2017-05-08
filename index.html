@@ -58,7 +58,7 @@ svg.selectAll(".wpcs-label")
     .attr("class", function(d) { return "wpcs-label " + d.id; })
     .attr("transform", function(d) { return "translate(" + path.centroid(d) + ")"; })
     .attr("dy", ".35em")
-    .append("svg.title")
+    .append("title")
     .text(function(d) { return d.properties.PCON13NM; });
  
     
