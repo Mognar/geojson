@@ -30,6 +30,7 @@ div.tooltip {
 </style>
 <body>
 <script src="https://d3js.org/d3.v3.min.js"></script>
+  <script src="//d3js.org/queue.v1.min.js"></script>
 <script src="https://d3js.org/topojson.v1.min.js"></script>
 <script>
 
@@ -67,9 +68,22 @@ svg.call(zoom);
 //Create a tooltip, hidden at the start
 var tooltip = d3.select("body").append("div").attr("class","tooltip");
 
-d3.json("topojsonwpc.json",function(error,geodata) {
-  if (error) return console.log(error); //unknown error, check the console
+/*d3.json("topojsonwpc.json",function(error,geodata) {
+  if (error) return console.log(error); //unknown error, check the console*/
 
+  queue()
+    .defer(d3.json, "topojsonwpc.json")
+    .defer(d3.csv, "mpgeo.csv")
+    .await(ready);
+  
+  
+  function ready(error, topojsonwpc, mpgeo) {
+  if (error) throw error;
+    
+    var rateByNumber = {};
+
+  mpgeo.forEach(function(d) { rateByNumber[d.id] = +d.number; });
+    
   //Create a path for each map feature in the data
   features.selectAll("path")
     .data(topojson.feature(geodata,geodata.objects.wpc).features) //generate features from TopoJSON
@@ -80,6 +94,7 @@ d3.json("topojsonwpc.json",function(error,geodata) {
     .on("mousemove",moveTooltip)
     .on("mouseout",hideTooltip)
     .on("click",clicked);
+    .style("fill", function(d) { return color(rateByNumber[d.id]); });
 
 });
 
