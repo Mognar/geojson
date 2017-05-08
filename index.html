@@ -54,12 +54,14 @@ svg.append("path")
     
 svg.selectAll(".wpcs-label")
     .data(topojson.feature(uk, uk.objects.wpc).features)
-     .append("svg:title")
+   .enter().append("text")
     .attr("class", function(d) { return "wpcs-label " + d.id; })
     .attr("transform", function(d) { return "translate(" + path.centroid(d) + ")"; })
     .attr("dy", ".35em")
+    .append("svg.title")
     .text(function(d) { return d.properties.PCON13NM; });
  
+    
 });
 
 </script>
