@@ -97,7 +97,7 @@ var tooltip = d3.select("body").append("div").attr("class","tooltip");
     .on("mouseover",showTooltip)
     .on("mousemove",moveTooltip)
     .on("mouseout",hideTooltip)
-    .on("click",clicked);
+    .on("click",clicked)
     .style("fill", function(d) { return color(rateByNumber[d.id]); });
 
 });
