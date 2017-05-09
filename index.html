@@ -1,38 +1,18 @@
 <!DOCTYPE html>
-<meta charset="utf-8">
-<style>
-body {
-  font: 12px sans-serif;
-}
-path {
-  stroke-width: 0.3px;
-  fill: #447A1C;
-  stroke: white;
-  cursor: pointer;
-}
-path:hover, path.highlighted {
-  fill: black;
-}
-div.tooltip {
-  position: absolute;
-  background-color: white;
-  border: 1px solid black;
-  color: black;
-  font-weight: bold;
-  padding: 4px 8px;
-  display: none;
-}
-  svg {
-    width:65%;
-    height:100%;
-    float:right;
-  }
+<head>
+	<meta name="viewport" content="width=device-width">
 
-    #left_column {
-    width: 35%;
-    float:left;
-  }
-</style>
+	<meta charset="UTF-8">
+	
+	<title>Resolution Dependent Layout</title>
+	
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	
+	<link rel="stylesheet" media="screen and (max-width: 700px)" href="css/narrow.css">
+	<link rel="stylesheet" media="screen and (min-width: 701px)" href="css/wide.css">
+	
+</head>
+<meta charset="utf-8">
 <body>
   <div id="left_column">
   <h1 text-align="center">Chloropleth map showing number of debates each England/Wales/Scotland MP spoke in during 2015 Parliament</h1>
