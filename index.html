@@ -28,15 +28,16 @@
     <b>Do not take this as an indicator of MP's overall activity - MPs do much more than debate in the chamber.</b><br/><br/>
     The Northern Ireland element of this map is still under construction - sorry!</p>
   </div>
-  
+ <div id="right column"> 
 <script src="https://d3js.org/d3.v3.min.js"></script>
   <script src="//d3js.org/queue.v1.min.js"></script>
 <script src="https://d3js.org/topojson.v1.min.js"></script>
 <script>
 //Map dimensions (in pixels)
-var width = "400",
-    height = "600";
-  
+//var width = "400",
+    //height = "600";
+
+	
   var color = d3.scale.threshold()
    .domain([30, 60, 90, 120, 150, 180, 210])
     .range(["#f2f0f7", "#dadaeb", "#bcbddc", "#9e9ac8", "#756bb1", "#54278f", "#220c3f", "#100026"]);
@@ -50,9 +51,13 @@ var projection = d3.geo.mercator()
 var path = d3.geo.path()
     .projection(projection);
 //Create an SVG
-var svg = d3.select("body").append("svg")
-    .attr("width", width)
-    .attr("height", height);
+//var svg = d3.select("body").append("svg")
+var svg = d3.select("body")
+        .append("svg")
+        .attr("viewBox", "0 0 " + width + " " + height )
+        .attr("preserveAspectRatio", "xMinYMin");
+    //.attr("width", width)
+    //.attr("height", height);
 //Group for the map features
 var features = svg.append("g")
     .attr("class","features");
@@ -143,4 +148,4 @@ function hideTooltip() {
   tooltip.style("display","none");
 }*/
 </script>
-  
+	</div>  
