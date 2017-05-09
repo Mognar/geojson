@@ -17,7 +17,7 @@ Basildon and Billericay,E14000544,E14000544,A15,John Baron,66
 Basingstoke,E14000545,E14000545,A16,Maria Miller,93
 Bassetlaw,E14000546,E14000546,A17,John Mann,51
 Bath,E14000547,E14000547,A18,Ben Howlett,156
-Batley and Spen,E14000548,E14000548,A19,Tracy Brabin,28
+Batley and Spen,E14000548,JC: 58/TB: 28,A19,Jo Cox/Tracy Brabin,86
 Battersea,E14000549,E14000549,A20,Jane Ellison,64
 Beaconsfield,E14000550,E14000550,A21,Dominic Grieve,41
 Beckenham,E14000551,E14000551,A22,Bob Stewart,154
@@ -116,7 +116,7 @@ Cleethorpes,E14000643,E14000643,B15,Martin Vickers,176
 Colchester,E14000644,E14000644,B16,Will Quince,74
 Colne Valley,E14000645,E14000645,B17,Jason McCartney,130
 Congleton,E14000646,E14000646,B18,Fiona Bruce,130
-Copeland,E14000647,E14000647,B19,Jamie Reed,26
+Copeland,E14000647,JR: 26/TH: 1,B19,Jamie Reed/Trudy Harrison,27
 Corby,E14000648,E14000648,B20,Tom Pursglove,254
 Coventry North East,E14000649,E14000649,B21,Colleen Fletcher,29
 Coventry North West,E14000650,E14000650,B22,Geoffrey Robinson,13
@@ -365,7 +365,7 @@ Redditch,E14000892,E14000892,D66,Karen Lumley,39
 Reigate,E14000893,E14000893,D67,Crispin Blunt,111
 Ribble Valley,E14000894,E14000894,D68,Nigel Evans,106
 Richmond (Yorks),E14000895,E14000895,D69,Rishi Sunak,52
-Richmond Park,E14000896,E14000896,D70,Zac Goldsmith,15
+Richmond Park,E14000896,ZG: 15/SO: 10,D70,Zac Goldsmith/Sarah Olney,25
 Rochdale,E14000897,E14000897,D71,Simon Danczuk,67
 Rochester and Strood,E14000898,E14000898,D72,Kelly Tolhurst,60
 Rochford and Southend East,E14000899,E14000899,D73,James Duddridge,49
@@ -441,7 +441,7 @@ Stevenage,E14000968,E14000968,E43,Stephen McPartland,24
 Stockport,E14000969,E14000969,E44,Ann Coffey,23
 Stockton North,E14000970,E14000970,E45,Alex Cunningham,118
 Stockton South,E14000971,E14000971,E46,James Wharton,34
-Stoke-on-Trent Central,E14000972,E14000972,E47,Tristram Hunt,52
+Stoke-on-Trent Central,E14000972,TH: 52/GS: 1,E47,Tristram Hunt/Gareth Snell,53
 Stoke-on-Trent North,E14000973,E14000973,E48,Ruth Smeeth,55
 Stoke-on-Trent South,E14000974,E14000974,E49,Robert Flello,71
 Stone,E14000975,E14000975,E50,William Cash,90
@@ -467,7 +467,7 @@ Thornbury and Yate,E14000994,E14000994,E69,Luke Hall,39
 Thurrock,E14000995,E14000995,E70,Jackie Doyle-Price,Government Whip (did not enter debates in this Parliament)
 Tiverton and Honiton,E14000996,E14000996,E71,Neil Parish,75
 Tonbridge and Malling,E14000997,E14000997,E72,Tom Tugendhat,106
-Tooting,E14000998,E14000998,E73,Rosena Allin-Khan,29
+Tooting,E14000998,SK:14 / RA-K: 29,E73,Sadiq Khan/Rosena Allin-Khan,43
 Torbay,E14000999,E14000999,E74,Kevin Foster,278
 Torridge and West Devon,E14001000,E14001000,E75,Geoffrey Cox,12
 Totnes,E14001001,E14001001,E76,Sarah Wollaston,106
@@ -515,7 +515,7 @@ Windsor,E14001042,E14001042,F18,Adam Afriyie,11
 Wirral South,E14001043,E14001043,F19,Alison McGovern,116
 Wirral West,E14001044,E14001044,F20,Margaret Greenwood,100
 Witham,E14001045,E14001045,F21,Priti Patel,36
-Witney,E14001046,E14001046,F22,David Cameron,59
+Witney,E14001046,DC: 58/RC: 29,F22,David Cameron/Robert Courts,87
 Woking,E14001047,E14001047,F23,Jonathan Lord,11
 Wokingham,E14001048,E14001048,F24,John Redwood,134
 Wolverhampton North East,E14001049,E14001049,F25,Emma Reynolds,46
