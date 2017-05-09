@@ -27,14 +27,13 @@ div.tooltip {
   }
 </style>
 <body>
-  <h1 text-align="center">Chloropleth map showing number of debates each England MP spoke in in 2015 Parliament</h1>
+  <h1 text-align="center">Chloropleth map showing number of debates each England/Wales/Scotland MP spoke in in 2015 Parliament</h1>
 <script src="https://d3js.org/d3.v3.min.js"></script>
   <script src="//d3js.org/queue.v1.min.js"></script>
 <script src="https://d3js.org/topojson.v1.min.js"></script>
 <script>
 //Map dimensions (in pixels)
-var width = 750,
-    height = 900;
+
   
   var color = d3.scale.threshold()
     .domain([30, 60, 90, 120, 150, 180, 210])
