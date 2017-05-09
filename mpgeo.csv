@@ -92,7 +92,7 @@ Canterbury,E14000619,E14000619,A90,Julian Brazier,52
 Carlisle,E14000620,E14000620,A91,John Stevenson,52
 Carshalton and Wallington,E14000621,E14000621,A92,Tom Brake,263
 Castle Point,E14000622,E14000622,A93,Rebecca Harris,35
-Central Devon,E14000623,E14000623,A94,Mel Stride,#N/A
+Central Devon,E14000623,E14000623,A94,Mel Stride,Government Whip (did not enter debates in this Parliament)
 Central Suffolk and North Ipswich,E14000624,E14000624,A95,Dan Poulter,58
 Charnwood,E14000625,E14000625,A96,Edward Argar,65
 Chatham and Aylesford,E14000626,E14000626,A97,Tracey Crouch,29
@@ -106,7 +106,7 @@ Chichester,E14000633,E14000633,B05,Andrew Tyrie,47
 Chingford and Woodford Green,E14000634,E14000634,B06,Iain Duncan Smith,28
 Chippenham,E14000635,E14000635,B07,Michelle Donelan,75
 Chipping Barnet,E14000636,E14000636,B08,Theresa Villiers,64
-Chorley,E14000637,E14000637,B09,Lindsay Hoyle,#N/A
+Chorley,E14000637,E14000637,B09,Lindsay Hoyle,Deputy Speaker (contributions not counted)
 Christchurch,E14000638,E14000638,B10,Christopher Chope,124
 Cities of London and Westminster,E14000639,E14000639,B11,Mark Field,70
 City of Chester,E14000640,E14000640,B12,Christian Matheson,137
@@ -162,7 +162,7 @@ Elmet and Rothwell,E14000689,E14000689,B61,Alec Shelbrooke,72
 Eltham,E14000690,E14000690,B62,Clive Efford,110
 Enfield North,E14000691,E14000691,B63,Joan Ryan,95
 "Enfield, Southgate",E14000692,E14000692,B64,David Burrowes,150
-Epping Forest,E14000693,E14000693,B65,Eleanor Laing,#N/A
+Epping Forest,E14000693,E14000693,B65,Eleanor Laing,Deputy Speaker (contributions not counted)
 Epsom and Ewell,E14000694,E14000694,B66,Chris Grayling,79
 Erewash,E14000695,E14000695,B67,Maggie Throup,97
 Erith and Thamesmead,E14000696,E14000696,B68,Teresa Pearce,31
@@ -280,7 +280,7 @@ Manchester Central,E14000807,E14000807,C80,Lucy Powell,40
 "Manchester, Gorton",E14000808,E14000808,C81,Gerald Kaufman,24
 "Manchester, Withington",E14000809,E14000809,C82,Jeff Smith,71
 Mansfield,E14000810,E14000810,C83,Alan Meale,5
-Meon Valley,E14000811,E14000811,C84,George Hollingbery,#N/A
+Meon Valley,E14000811,E14000811,C84,George Hollingbery,Government Whip (did not enter debates in this Parliament)
 Meriden,E14000812,E14000812,C85,Caroline Spelman,85
 Mid Bedfordshire,E14000813,E14000813,C86,Nadine Dorries,13
 Mid Derbyshire,E14000814,E14000814,C87,Pauline Latham,93
@@ -312,7 +312,7 @@ North Dorset,E14000839,E14000839,D13,Simon Hoare,152
 North Durham,E14000840,E14000840,D14,Kevan Jones,82
 North East Bedfordshire,E14000841,E14000841,D15,Alistair Burt,83
 North East Cambridgeshire,E14000842,E14000842,D16,Stephen Barclay,6
-North East Derbyshire,E14000843,E14000843,D17,Natascha Engel,#N/A
+North East Derbyshire,E14000843,E14000843,D17,Natascha Engel,Deputy Speaker (contributions not counted)
 North East Hampshire,E14000844,E14000844,D18,Ranil Jayawardena,65
 North East Hertfordshire,E14000845,E14000845,D19,Oliver Heald,50
 North East Somerset,E14000846,E14000846,D20,Jacob Rees-Mogg,97
@@ -397,7 +397,7 @@ Sherwood,E14000924,E14000924,D98,Mark Spencer,76
 Shipley,E14000925,E14000925,D99,Philip Davies,254
 Shrewsbury and Atcham,E14000926,E14000926,E01,Daniel Kawczynski,63
 Sittingbourne and Sheppey,E14000927,E14000927,E02,Gordon Henderson,25
-Skipton and Ripon,E14000928,E14000928,E03,Julian Smith,#N/A
+Skipton and Ripon,E14000928,E14000928,E03,Julian Smith,Government Whip (did not enter debates in this Parliament)
 Sleaford and North Hykeham,E14000929,E14000929,E04,Caroline Johnson,7
 Slough,E14000930,E14000930,E05,Fiona Mactaggart,148
 Solihull,E14000931,E14000931,E06,Julian Knight,115
@@ -464,7 +464,7 @@ The Cotswolds,E14000991,E14000991,E66,Geoffrey Clifton-Brown,64
 The Wrekin,E14000992,E14000992,E67,Mark Pritchard,57
 Thirsk and Malton,E14000993,E14000993,E68,Kevin Hollinrake,131
 Thornbury and Yate,E14000994,E14000994,E69,Luke Hall,39
-Thurrock,E14000995,E14000995,E70,Jackie Doyle-Price,#N/A
+Thurrock,E14000995,E14000995,E70,Jackie Doyle-Price,Government Whip (did not enter debates in this Parliament)
 Tiverton and Honiton,E14000996,E14000996,E71,Neil Parish,75
 Tonbridge and Malling,E14000997,E14000997,E72,Tom Tugendhat,106
 Tooting,E14000998,E14000998,E73,Rosena Allin-Khan,29
@@ -591,7 +591,7 @@ Rutherglen and Hamilton West,S14000056,S14000056,856,Margaret Ferrier,256
 Stirling,S14000057,S14000057,857,Steven Paterson,98
 West Aberdeenshire and Kincardine,S14000058,S14000058,858,Stuart Blair Donaldson,61
 West Dunbartonshire,S14000059,S14000059,859,Martin Docherty-Hughes,105
-Ynys Mon,W07000041,W07000041,W01,Albert Owen,#N/A
+Ynys Mon,W07000041,W07000041,W01,Albert Owen,Government Whip (did not enter debates in this Parliament)
 Delyn,W07000042,W07000042,W02,David Hanson,172
 Alyn and Deeside,W07000043,W07000043,W03,Mark Tami,57
 Wrexham,W07000044,W07000044,W04,Ian C. Lucas,120
