@@ -21,6 +21,6 @@ div.tooltip {
   display: none;
 }
   svg {
-    width:90%;
-    height:760;
+    width:100%;
+    height:auto;
   }
