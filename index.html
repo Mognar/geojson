@@ -75,7 +75,7 @@ var tooltip = d3.select("body").append("div").attr("class","tooltip");
   if (error) return console.log(error); //unknown error, check the console*/
   queue()
     .defer(d3.json, "topo_wpc.json")
-    .defer(d3.csv, "mpgeo.csv")
+    .defer(d3.csv, "mpgeo1.csv")
     .await(ready);
   
   
@@ -85,9 +85,11 @@ var tooltip = d3.select("body").append("div").attr("class","tooltip");
     var rateByNumber = {};
     var nameById = {};
     var numberById = {};
+     var notesById = {};
   mpgeo.forEach(function(d) { rateByNumber[d.id] = +d.Number;
                             nameById[d.id] = d.MP;
-                            numberById[d.id] = d.Number;});
+                            numberById[d.id] = d.Number;
+                            notesById[d.id] = d.Further;});
     
   //Create a path for each map feature in the data
   features.selectAll("path")
@@ -108,7 +110,7 @@ var tooltipOffset = {x: 5, y: -25};
 function showTooltip(d) {
   moveTooltip();
   tooltip.style("display","block")
-      .html(d.properties.PCON13NM + "<br/>" + "MP: " + nameById[d.id] + "<br/>" + "No. of debates spoken in:" + numberById[d.id]);
+      .html(d.properties.PCON13NM + "<br/>" + "MP: " + nameById[d.id] + "<br/>" + "No. of debates spoken in:" + numberById[d.id] + "<br/>" + "Further information: " + notesById[d.id]);
 }
 //Move the tooltip to track the mouse
 function moveTooltip() {
