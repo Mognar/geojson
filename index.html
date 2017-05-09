@@ -43,7 +43,7 @@ var width = "500",
 var projection = d3.geo.mercator()
     .scale(3311.0206981505453)
     .center([-2.3274110175636986,52.9399138661944]) //projection center
-    .translate([width/2,height/2]) //translate to center the map in view
+    //.translate([width/2,height/2]) //translate to center the map in view
 //Generate paths based on projection
 var path = d3.geo.path()
     .projection(projection);
