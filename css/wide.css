@@ -1,0 +1,32 @@
+
+body {
+  font: 12px sans-serif;
+}
+path {
+  stroke-width: 0.3px;
+  fill: #447A1C;
+  stroke: white;
+  cursor: pointer;
+}
+path:hover, path.highlighted {
+  fill: black;
+}
+div.tooltip {
+  position: absolute;
+  background-color: white;
+  border: 1px solid black;
+  color: black;
+  font-weight: bold;
+  padding: 4px 8px;
+  display: none;
+}
+  svg {
+    width:65%;
+    height:100%;
+    float:right;
+  }
+
+    #left_column {
+    width: 35%;
+    float:left;
+  }
