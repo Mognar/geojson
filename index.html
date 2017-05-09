@@ -1,22 +1,17 @@
 <!DOCTYPE html>
 <meta charset="utf-8">
 <style>
-
 body {
   font: 12px sans-serif;
 }
-
 path {
-  stroke-width: 1px;
+  stroke-width: 0.5px;
   stroke: white;
-  fill: steelblue;
   cursor: pointer;
 }
-
 path:hover, path.highlighted {
   fill: tomato;
 }
-
 div.tooltip {
   position: absolute;
   background-color: white;
@@ -26,101 +21,121 @@ div.tooltip {
   padding: 4px 8px;
   display: none;
 }
-  
-svg {
-  width: 100%; 
-  height: auto;
+  svg {
+    width:100%;
+    height:auto;
   }
-
 </style>
 <body>
+  <h1 text-align="center">Chloropleth map showing number of debates each England MP spoke in in 2015 Parliament</h1>
 <script src="https://d3js.org/d3.v3.min.js"></script>
+  <script src="//d3js.org/queue.v1.min.js"></script>
 <script src="https://d3js.org/topojson.v1.min.js"></script>
 <script>
-
 //Map dimensions (in pixels)
-var width = 900,
-    height = 1200;
-
+var width = 750,
+    height = 900;
+  
+  var color = d3.scale.threshold()
+    .domain([30, 60, 90, 120, 150, 180, 210])
+    .range(["#f2f0f7", "#dadaeb", "#bcbddc", "#9e9ac8", "#756bb1", "#54278f", "#220c3f", "#100026"]);
 //Map projection
 var projection = d3.geo.mercator()
     .scale(3311.0206981505453)
     .center([-2.3274110175636986,52.9399138661944]) //projection center
     .translate([width/2,height/2]) //translate to center the map in view
-
 //Generate paths based on projection
 var path = d3.geo.path()
     .projection(projection);
-
 //Create an SVG
 var svg = d3.select("body").append("svg")
     .attr("width", width)
     .attr("height", height);
-
 //Group for the map features
 var features = svg.append("g")
     .attr("class","features");
-
 //Create zoom/pan listener
 //Change [1,Infinity] to adjust the min/max zoom scale
 var zoom = d3.behavior.zoom()
     .scaleExtent([1, Infinity])
     .on("zoom",zoomed);
-
 svg.call(zoom);
-
 //Create a tooltip, hidden at the start
 var tooltip = d3.select("body").append("div").attr("class","tooltip");
-
-d3.json("topo_wpc.json",function(error,geodata) {
-  if (error) return console.log(error); //unknown error, check the console
-
+/*d3.json("topojsonwpc.json",function(error,geodata) {
+  if (error) return console.log(error); //unknown error, check the console*/
+  queue()
+    .defer(d3.json, "topo_wpc.json")
+    .defer(d3.csv, "mpgeo.csv")
+    .await(ready);
+  
+  
+  function ready(error, topojsonwpc, mpgeo) {
+  if (error) throw error;
+    
+    var rateByNumber = {};
+    var nameById = {};
+    var numberById = {};
+  mpgeo.forEach(function(d) { rateByNumber[d.id] = +d.Number;
+                            nameById[d.id] = d.MP;
+                            numberById[d.id] = d.Number;});
+    
   //Create a path for each map feature in the data
   features.selectAll("path")
-    .data(topojson.feature(geodata,geodata.objects.wpc).features) //generate features from TopoJSON
+    .data(topojson.feature(topojsonwpc,topojsonwpc.objects.wpc).features) //generate features from TopoJSON
     .enter()
     .append("path")
     .attr("d",path)
     .on("mouseover",showTooltip)
     .on("mousemove",moveTooltip)
     .on("mouseout",hideTooltip)
-    .on("click",clicked);
-
+    .on("click",clicked)
+    .style("fill", function(d) { return color(rateByNumber[d.id]);
 });
-
-// Add optional onClick events for features here
-// d.properties contains the attributes (e.g. d.properties.name, d.properties.population)
-function clicked(d,i) {
-
-}
-
-
-//Update map on zoom/pan
-function zoomed() {
-  features.attr("transform", "translate(" + zoom.translate() + ")scale(" + zoom.scale() + ")")
-      .selectAll("path").style("stroke-width", 1 / zoom.scale() + "px" );
-}
-
-
-//Position of the tooltip relative to the cursor
+    
+    //Position of the tooltip relative to the cursor
 var tooltipOffset = {x: 5, y: -25};
-
 //Create a tooltip, hidden at the start
 function showTooltip(d) {
   moveTooltip();
-
   tooltip.style("display","block")
-      .text(d.properties.PCON13NM);
+      .html(d.properties.PCON13NM + "<br/>" + "MP: " + nameById[d.id] + "<br/>" + "No. of debates spoken in:" + numberById[d.id]);
 }
-
 //Move the tooltip to track the mouse
 function moveTooltip() {
   tooltip.style("top",(d3.event.pageY+tooltipOffset.y)+"px")
       .style("left",(d3.event.pageX+tooltipOffset.x)+"px");
 }
-
 //Create a tooltip, hidden at the start
 function hideTooltip() {
   tooltip.style("display","none");
 }
+    
+  }
+// Add optional onClick events for features here
+// d.properties contains the attributes (e.g. d.properties.name, d.properties.population)
+function clicked(d,i) {
+}
+//Update map on zoom/pan
+function zoomed() {
+  features.attr("transform", "translate(" + zoom.translate() + ")scale(" + zoom.scale() + ")")
+      .selectAll("path").style("stroke-width", 1 / zoom.scale() + "px" );
+}
+/*//Position of the tooltip relative to the cursor
+var tooltipOffset = {x: 5, y: -25};
+//Create a tooltip, hidden at the start
+function showTooltip(d) {
+  moveTooltip();
+  tooltip.style("display","block")
+      .text(d.properties.PCON13NM + " " + nameById[d.properties.id]);
+}
+//Move the tooltip to track the mouse
+function moveTooltip() {
+  tooltip.style("top",(d3.event.pageY+tooltipOffset.y)+"px")
+      .style("left",(d3.event.pageX+tooltipOffset.x)+"px");
+}
+//Create a tooltip, hidden at the start
+function hideTooltip() {
+  tooltip.style("display","none");
+}*/
 </script>
