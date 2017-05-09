@@ -26,9 +26,27 @@ div.tooltip {
     width:100%;
     height:auto;
   }
+  
+  #left_column {
+    width: 30%;
+    float:left;
+}
+
+#right_column {
+    width: 70%;
+    float: right;
+}
 </style>
 <body>
-  <h1 text-align="center">Chloropleth map showing number of debates each England/Wales/Scotland MP spoke in in 2015 Parliament</h1>
+  <div id="left column">
+  <h1 text-align="center">Chloropleth map showing number of debates each England/Wales/Scotland MP spoke in for 2015 Parliament</h1>
+  <p>Hover mouse over each constituency to see the name of the constituency, the MP, and the number of debates spoken in. <br/>
+    Please note, this number does not include appearances in committees. <br/>
+    If a Member made several contributions in one debate, that debate is still only counted once. <br/>
+    If a Member asked a topical and an oral question in the same question time session, this map counts those two questions as one debate.<br/>
+    Do not take this as an indicator of MP's overall activity - MPs do much more than debate in the chamber. </p>
+  </div>
+  <div id="right column">
 <script src="https://d3js.org/d3.v3.min.js"></script>
   <script src="//d3js.org/queue.v1.min.js"></script>
 <script src="https://d3js.org/topojson.v1.min.js"></script>
@@ -140,3 +158,4 @@ function hideTooltip() {
   tooltip.style("display","none");
 }*/
 </script>
+  </div>
