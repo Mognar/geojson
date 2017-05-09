@@ -20,7 +20,7 @@ div.tooltip {
   padding: 4px 8px;
   display: none;
 }
-  svg {
+  #right_column {
     width:65%;
     height:100%;
     float:right;
