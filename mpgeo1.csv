@@ -27,7 +27,7 @@ Berwick-upon-Tweed,E14000554,,A25,Anne-Marie Trevelyan,70
 Bethnal Green and Bow,E14000555,,A26,Rushanara Ali,30
 Beverley and Holderness,E14000556,Asst Government Whip 17-07-16,A27,Graham Stuart,51
 Bexhill and Battle,E14000557,,A28,Huw Merriman,133
-Bexleyheath and Crayford,E14000558,,A29,David Evennett,12
+Bexleyheath and Crayford,E14000558,Government Whip,A29,David Evennett,12
 Birkenhead,E14000559,,A30,Frank Field,42
 "Birmingham, Edgbaston",E14000560,,A31,Gisela Stuart,86
 "Birmingham, Erdington",E14000561,,A32,Jack Dromey,75
@@ -79,7 +79,7 @@ Broxbourne,E14000606,,A77,Charles Walker,36
 Broxtowe,E14000607,,A78,Anna Soubry,108
 Buckingham,E14000608,,A79,John Bercow,Speaker (contributions not counted)
 Burnley,E14000609,,A80,Julie Cooper,54
-Burton,E14000610,,A81,Andrew Griffiths,27
+Burton,E14000610,Government Whip from 17-07-16,A81,Andrew Griffiths,27
 Bury North,E14000611,,A82,David Nuttall,299
 Bury South,E14000612,,A83,Ivan Lewis,16
 Bury St Edmunds,E14000613,,A84,Jo Churchill,94
@@ -129,7 +129,7 @@ Croydon South,E14000656,,B28,Chris Philp,71
 Dagenham and Rainham,E14000657,,B29,Jon Cruddas,7
 Darlington,E14000658,,B30,Jenny Chapman,72
 Dartford,E14000659,,B31,Gareth Johnson,53
-Daventry,E14000660,,B32,Chris Heaton-Harris,46
+Daventry,E14000660,Government Whip,B32,Chris Heaton-Harris,46
 Denton and Reddish,E14000661,,B33,Andrew Gwynne,293
 Derby North,E14000662,,B34,Amanda Solloway,54
 Derby South,E14000663,,B35,Margaret Beckett,5
@@ -188,7 +188,7 @@ Gravesham,E14000715,,B87,Adam Holloway,10
 Great Grimsby,E14000716,,B88,Melanie Onn,116
 Great Yarmouth,E14000717,,B89,Brandon Lewis,53
 Greenwich and Woolwich,E14000718,,B90,Matthew Pennycook,62
-Guildford,E14000719,,B91,Anne Milton,1
+Guildford,E14000719,Government Whip,B91,Anne Milton,1
 Hackney North and Stoke Newington,E14000720,,B92,Diane Abbott,67
 Hackney South and Shoreditch,E14000721,,B93,Meg Hillier,66
 Halesowen and Rowley Regis,E14000722,,B94,James Morris,66
@@ -311,7 +311,7 @@ North Devon,E14000838,,D12,Peter Heaton-Jones,65
 North Dorset,E14000839,,D13,Simon Hoare,152
 North Durham,E14000840,,D14,Kevan Jones,82
 North East Bedfordshire,E14000841,,D15,Alistair Burt,83
-North East Cambridgeshire,E14000842,,D16,Stephen Barclay,6
+North East Cambridgeshire,E14000842,Government Whip from 17-07-16,D16,Stephen Barclay,6
 North East Derbyshire,E14000843,,D17,Natascha Engel,Deputy Speaker (contributions not counted)
 North East Hampshire,E14000844,,D18,Ranil Jayawardena,65
 North East Hertfordshire,E14000845,,D19,Oliver Heald,50
@@ -330,7 +330,7 @@ North West Hampshire,E14000857,,D31,Kit Malthouse,84
 North West Leicestershire,E14000858,,D32,Andrew Bridgen,154
 North West Norfolk,E14000859,,D33,Henry Bellingham,80
 North Wiltshire,E14000860,,D34,James Gray,63
-Northampton North,E14000861,,D35,Michael Ellis,33
+Northampton North,E14000861,Government Whip,D35,Michael Ellis,33
 Northampton South,E14000862,,D36,David Mackintosh,36
 Norwich North,E14000863,,D37,Chloe Smith,67
 Norwich South,E14000864,,D38,Clive Lewis,56
@@ -350,7 +350,7 @@ Penrith and The Border,E14000877,,D51,Rory Stewart,34
 Peterborough,E14000878,,D52,Stewart Jackson,113
 "Plymouth, Moor View",E14000879,,D53,Johnny Mercer,44
 "Plymouth, Sutton and Devonport",E14000880,,D54,Oliver Colvile,140
-Poole,E14000881,,D55,Robert Syms,9
+Poole,E14000881,Government Whip,D55,Robert Syms,9
 Poplar and Limehouse,E14000882,,D56,Jim Fitzpatrick,52
 Portsmouth North,E14000883,,D57,Penny Mordaunt,27
 Portsmouth South,E14000884,,D58,Flick Drummond,100
@@ -393,7 +393,7 @@ Sheffield South East,E14000920,,D94,Clive Betts,86
 "Sheffield, Brightside and Hillsborough",E14000921,,D95,Gill Furniss,23
 "Sheffield, Hallam",E14000922,,D96,Nick Clegg,18
 "Sheffield, Heeley",E14000923,,D97,Louise Haigh,115
-Sherwood,E14000924,,D98,Mark Spencer,76
+Sherwood,E14000924,Government Whip from 17-07-16,D98,Mark Spencer,76
 Shipley,E14000925,,D99,Philip Davies,254
 Shrewsbury and Atcham,E14000926,,E01,Daniel Kawczynski,63
 Sittingbourne and Sheppey,E14000927,,E02,Gordon Henderson,25
@@ -404,7 +404,7 @@ Solihull,E14000931,,E06,Julian Knight,115
 Somerton and Frome,E14000932,,E07,David Warburton,38
 South Basildon and East Thurrock,E14000933,,E08,Stephen Metcalfe,57
 South Cambridgeshire,E14000934,,E09,Heidi Allen,73
-South Derbyshire,E14000935,,E10,Heather Wheeler,20
+South Derbyshire,E14000935,Government Whip from 17-07-16,E10,Heather Wheeler,20
 South Dorset,E14000936,,E11,Richard Drax,103
 South East Cambridgeshire,E14000937,,E12,Lucy Frazer,122
 South East Cornwall,E14000938,,E13,Sheryll Murray,62
@@ -414,7 +414,7 @@ South Norfolk,E14000941,,E16,Richard Bacon,26
 South Northamptonshire,E14000942,,E17,Andrea Leadsom,41
 South Ribble,E14000943,,E18,Seema Kennedy,98
 South Shields,E14000944,,E19,Emma Lewell-Buck,59
-South Staffordshire,E14000945,,E20,Gavin Williamson,5
+South Staffordshire,E14000945,Government whip from 14-07-16,E20,Gavin Williamson,5
 South Suffolk,E14000946,,E21,James Cartlidge,107
 South Swindon,E14000947,,E22,Robert Buckland,23
 South Thanet,E14000948,,E23,Craig Mackinlay,51
@@ -455,7 +455,7 @@ Sunderland Central,E14000982,,E57,Julie Elliott,39
 Surrey Heath,E14000983,,E58,Michael Gove,46
 Sutton and Cheam,E14000984,,E59,Paul Scully,58
 Sutton Coldfield,E14000985,,E60,Andrew Mitchell,44
-Tamworth,E14000986,,E61,Christopher Pincher,52
+Tamworth,E14000986,Government Whip from 17-07-16,E61,Christopher Pincher,52
 Tatton,E14000987,,E62,George Osborne,26
 Taunton Deane,E14000988,,E63,Rebecca Pow,151
 Telford,E14000989,,E64,Lucy Allan,72
@@ -510,7 +510,7 @@ Westmorland and Lonsdale,E14001037,,F13,Tim Farron,66
 Weston-Super-Mare,E14001038,,F14,John Penrose,41
 Wigan,E14001039,,F15,Lisa Nandy,26
 Wimbledon,E14001040,,F16,Stephen Hammond,79
-Winchester,E14001041,,F17,Steve Brine,44
+Winchester,E14001041,Government Whip from 17-07-16,F17,Steve Brine,44
 Windsor,E14001042,,F18,Adam Afriyie,11
 Wirral South,E14001043,,F19,Alison McGovern,116
 Wirral West,E14001044,,F20,Margaret Greenwood,100
@@ -608,7 +608,7 @@ Monmouth,W07000054,,W14,David T. C. Davies,104
 Newport East,W07000055,,W15,Jessica Morden,59
 Newport West,W07000056,,W16,Paul Flynn,161
 Arfon,W07000057,,W17,Hywel Williams,102
-Aberconwy,W07000058,,W18,Guto Bebb,37
+Aberconwy,W07000058,Government Whip from 19-03-16,W18,Guto Bebb,37
 Clwyd West,W07000059,,W19,David Jones,64
 Vale of Clwyd,W07000060,,W20,James Davies,45
 Dwyfor Meirionnydd,W07000061,,W21,Liz Saville Roberts,134
