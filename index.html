@@ -74,7 +74,7 @@ var tooltip = d3.select("body").append("div").attr("class","tooltip");
     .await(ready);
   
   
-  function ready(error, topojsonwpc,topojsonwpc, mpgeo) {
+  function ready(error, topojsonwpc,topojsonwpc1, mpgeo) {
   if (error) throw error;
     
     var rateByNumber = {};
@@ -88,7 +88,8 @@ var tooltip = d3.select("body").append("div").attr("class","tooltip");
     
   //Create a path for each map feature in the data
   features.selectAll("path")
-    .data(topojson.feature(topojsonwpc,topojsonwpc.objects.wpc).features) //generate features from TopoJSON
+    .data(topojson.feature(topojsonwpc,topojsonwpc.objects.wpc).features)
+	  .data(topojson.feature(topojsonwpc1,topojsonwpc1.objects.wpc).features)//generate features from TopoJSON
     .enter()
     .append("path")
     .attr("d",path)
