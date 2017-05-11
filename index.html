@@ -69,6 +69,7 @@ var tooltip = d3.select("body").append("div").attr("class","tooltip");
   if (error) return console.log(error); //unknown error, check the console*/
   queue()
     .defer(d3.json, "topo_wpc.json")
+	.defer(d3.json, "nigeojson.json")
     .defer(d3.csv, "mpgeo1.csv")
     .await(ready);
   
