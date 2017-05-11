@@ -97,7 +97,7 @@ var tooltip = d3.select("body").append("div").attr("class","tooltip");
     .on("mouseout",hideTooltip)
     .on("click",clicked)
     .style("fill", function(d) { return color(rateByNumber[d.id]);
-				
+	});			
 features.selectAll("path")
     .data(topojson.feature(topojsonwpc1,topojsonwpc1.objects.wpc).features)//generate features from TopoJSON
     .enter()
