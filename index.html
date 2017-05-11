@@ -69,11 +69,12 @@ var tooltip = d3.select("body").append("div").attr("class","tooltip");
   if (error) return console.log(error); //unknown error, check the console*/
   queue()
     .defer(d3.json, "topo_wpc.json")
+	.defer(d3.json, "nigeojson.json")
     .defer(d3.csv, "mpgeo1.csv")
     .await(ready);
   
   
-  function ready(error, topojsonwpc, mpgeo) {
+  function ready(error, topojsonwpc,topojsonwpc1, mpgeo) {
   if (error) throw error;
     
     var rateByNumber = {};
@@ -88,6 +89,17 @@ var tooltip = d3.select("body").append("div").attr("class","tooltip");
   //Create a path for each map feature in the data
   features.selectAll("path")
     .data(topojson.feature(topojsonwpc,topojsonwpc.objects.wpc).features)//generate features from TopoJSON
+    .enter()
+    .append("path")
+    .attr("d",path)
+    .on("mouseover",showTooltip)
+    .on("mousemove",moveTooltip)
+    .on("mouseout",hideTooltip)
+    .on("click",clicked)
+    .style("fill", function(d) { return color(rateByNumber[d.id]);
+				
+features.selectAll("path")
+    .data(topojson.feature(topojsonwpc1,topojsonwpc1.objects.wpc).features)//generate features from TopoJSON
     .enter()
     .append("path")
     .attr("d",path)
