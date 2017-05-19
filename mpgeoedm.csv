@@ -1,4 +1,4 @@
-Const,id,further,Column3,MP,Number
+Const,id,Further,Column3,MP,Number
 Aldershot,E14000530,,A01,Gerald Howarth,#N/A
 Aldridge-Brownhills,E14000531,,A02,Wendy Morton,#N/A
 Altrincham and Sale West,E14000532,,A03,Graham Brady,1
@@ -17,7 +17,7 @@ Basildon and Billericay,E14000544,,A15,John Baron,#N/A
 Basingstoke,E14000545,,A16,Maria Miller,#N/A
 Bassetlaw,E14000546,,A17,John Mann,21
 Bath,E14000547,,A18,Ben Howlett,#N/A
-Batley and Spen,E14000548,,A19,Tracy Brabin,1
+Batley and Spen,E14000548,JC: 58/TB: 36,A19,Jo Cox/Tracy Brabin,1
 Battersea,E14000549,,A20,Jane Ellison,#N/A
 Beaconsfield,E14000550,,A21,Dominic Grieve,#N/A
 Beckenham,E14000551,,A22,Bob Stewart,#N/A
@@ -25,7 +25,7 @@ Bedford,E14000552,,A23,Richard Fuller,#N/A
 Bermondsey and Old Southwark,E14000553,,A24,Neil Coyle,1
 Berwick-upon-Tweed,E14000554,,A25,Anne-Marie Trevelyan,#N/A
 Bethnal Green and Bow,E14000555,,A26,Rushanara Ali,#N/A
-Beverley and Holderness,E14000556,,A27,Graham Stuart,#N/A
+Beverley and Holderness,E14000556,Asst Government Whip 17-07-16,A27,Graham Stuart,#N/A
 Bexhill and Battle,E14000557,,A28,Huw Merriman,#N/A
 Bexleyheath and Crayford,E14000558,,A29,David Evennett,#N/A
 Birkenhead,E14000559,,A30,Frank Field,5
@@ -116,7 +116,7 @@ Cleethorpes,E14000643,,B15,Martin Vickers,2
 Colchester,E14000644,,B16,Will Quince,#N/A
 Colne Valley,E14000645,,B17,Jason McCartney,#N/A
 Congleton,E14000646,,B18,Fiona Bruce,6
-Copeland,E14000647,,B19,Jamie Reed,5
+Copeland,E14000647,JR: 26/TH: 1,B19,Jamie Reed/Trudy Harrison,5
 Corby,E14000648,,B20,Tom Pursglove,#N/A
 Coventry North East,E14000649,,B21,Colleen Fletcher,2
 Coventry North West,E14000650,,B22,Geoffrey Robinson,1
@@ -215,7 +215,7 @@ Henley,E14000742,,C15,John Howell,1
 Hereford and South Herefordshire,E14000743,,C16,Jesse Norman,#N/A
 Hertford and Stortford,E14000744,,C17,Mark Prisk,#N/A
 Hertsmere,E14000745,,C18,Oliver Dowden,#N/A
-Hexham,E14000746,,C19,Guy Opperman,#N/A
+Hexham,E14000746,Appointed government whip 17-07-16,C19,Guy Opperman,#N/A
 Heywood and Middleton,E14000747,,C20,Liz McInnes,4
 High Peak,E14000748,,C21,Andrew Bingham,#N/A
 Hitchin and Harpenden,E14000749,,C22,Peter Lilley,#N/A
@@ -365,7 +365,7 @@ Redditch,E14000892,,D66,Karen Lumley,#N/A
 Reigate,E14000893,,D67,Crispin Blunt,#N/A
 Ribble Valley,E14000894,,D68,Nigel Evans,8
 Richmond (Yorks),E14000895,,D69,Rishi Sunak,#N/A
-Richmond Park,E14000896,,D70,Zac Goldsmith,2
+Richmond Park,E14000896,ZG: 15/SO: 15,D70,Zac Goldsmith/Sarah Olney,2
 Rochdale,E14000897,,D71,Simon Danczuk,#N/A
 Rochester and Strood,E14000898,,D72,Kelly Tolhurst,#N/A
 Rochford and Southend East,E14000899,,D73,James Duddridge,1
@@ -390,7 +390,7 @@ Selby and Ainsty,E14000917,,D91,Nigel Adams,#N/A
 Sevenoaks,E14000918,,D92,Michael Fallon,#N/A
 Sheffield Central,E14000919,,D93,Paul Blomfield,1
 Sheffield South East,E14000920,,D94,Clive Betts,1
-"Sheffield, Brightside and Hillsborough",E14000921,,D95,Gill Furniss,1
+"Sheffield, Brightside and Hillsborough",E14000921,HH: 10/GF: 31,D95,Harry Harpham/Gill Furniss,1
 "Sheffield, Hallam",E14000922,,D96,Nick Clegg,#N/A
 "Sheffield, Heeley",E14000923,,D97,Louise Haigh,2
 Sherwood,E14000924,,D98,Mark Spencer,#N/A
@@ -441,7 +441,7 @@ Stevenage,E14000968,,E43,Stephen McPartland,#N/A
 Stockport,E14000969,,E44,Ann Coffey,3
 Stockton North,E14000970,,E45,Alex Cunningham,2
 Stockton South,E14000971,,E46,James Wharton,#N/A
-Stoke-on-Trent Central,E14000972,,E47,Tristram Hunt,#N/A
+Stoke-on-Trent Central,E14000972,TH: 52/GS: 5,E47,Tristram Hunt/Gareth Snell,#N/A
 Stoke-on-Trent North,E14000973,,E48,Ruth Smeeth,5
 Stoke-on-Trent South,E14000974,,E49,Robert Flello,20
 Stone,E14000975,,E50,William Cash,1
@@ -467,7 +467,7 @@ Thornbury and Yate,E14000994,,E69,Luke Hall,#N/A
 Thurrock,E14000995,,E70,Jackie Doyle-Price,#N/A
 Tiverton and Honiton,E14000996,,E71,Neil Parish,#N/A
 Tonbridge and Malling,E14000997,,E72,Tom Tugendhat,#N/A
-Tooting,E14000998,,E73,Rosena Allin-Khan,#N/A
+Tooting,E14000998,SK:14 / RA-K: 31,E73,Sadiq Khan/Rosena Allin-Khan,#N/A
 Torbay,E14000999,,E74,Kevin Foster,#N/A
 Torridge and West Devon,E14001000,,E75,Geoffrey Cox,#N/A
 Totnes,E14001001,,E76,Sarah Wollaston,#N/A
@@ -515,7 +515,7 @@ Windsor,E14001042,,F18,Adam Afriyie,#N/A
 Wirral South,E14001043,,F19,Alison McGovern,#N/A
 Wirral West,E14001044,,F20,Margaret Greenwood,#N/A
 Witham,E14001045,,F21,Priti Patel,#N/A
-Witney,E14001046,,F22,David Cameron,#N/A
+Witney,E14001046,DC: 58/RC: 36,F22,David Cameron/Robert Courts,#N/A
 Woking,E14001047,,F23,Jonathan Lord,#N/A
 Wokingham,E14001048,,F24,John Redwood,#N/A
 Wolverhampton North East,E14001049,,F25,Emma Reynolds,#N/A
@@ -532,6 +532,105 @@ Wythenshawe and Sale East,E14001059,,F35,Mike Kane,#N/A
 Yeovil,E14001060,,F36,Marcus Fysh,#N/A
 York Central,E14001061,,F37,Rachael Maskell,3
 York Outer,E14001062,,F38,Julian Sturdy,#N/A
+Aberdeen North,S14000001,,801,Kirsty Blackman,20
+Aberdeen South,S14000002,,802,Callum McCaig,8
+Airdrie and Shotts,S14000003,,803,Neil Gray,12
+Angus,S14000004,,804,Mike Weir,2
+Argyll and Bute,S14000005,,805,Brendan O'Hara,40
+"Ayr, Carrick and Cumnock",S14000006,,806,Corri Wilson,47
+Banff and Buchan,S14000007,,807,Eilidh Whiteford,5
+"Berwickshire, Roxburgh and Selkirk",S14000008,,808,Calum Kerr,4
+"Caithness, Sutherland and Easter Ross",S14000009,,809,Paul Monaghan,101
+Central Ayrshire,S14000010,,810,Philippa Whitford,17
+"Coatbridge, Chryston and Bellshill",S14000011,,811,Philip Boswell,3
+"Cumbernauld, Kilsyth and Kirkintilloch East",S14000012,,812,Stuart C. McDonald,10
+Dumfries and Galloway,S14000013,,813,Richard Arkless,5
+"Dumfriesshire, Clydesdale and Tweeddale",S14000014,,814,David Mundell,#N/A
+Dundee East,S14000015,,815,Stewart Hosie,2
+Dundee West,S14000016,,816,Chris Law,32
+Dunfermline and West Fife,S14000017,,817,Douglas Chapman,16
+East Dunbartonshire,S14000018,,818,John Nicolson,2
+"East Kilbride, Strathaven and Lesmahagow",S14000019,,819,Lisa Cameron,19
+East Lothian,S14000020,,820,George Kerevan,18
+East Renfrewshire,S14000021,,821,Kirsten Oswald,59
+Edinburgh East,S14000022,,822,Tommy Sheppard,12
+Edinburgh North and Leith,S14000023,,823,Deidre Brock,9
+Edinburgh South,S14000024,,824,Ian Murray,9
+Edinburgh South West,S14000025,,825,Joanna Cherry,3
+Edinburgh West,S14000026,,826,Michelle Thomson,2
+Na h-Eileanan an Iar,S14000027,,847,Angus Brendan MacNeil,13
+Falkirk,S14000028,,827,John Mc Nally,7
+Glasgow Central,S14000029,,828,Alison Thewliss,49
+Glasgow East,S14000030,,829,Natalie McGarry,15
+Glasgow North,S14000031,,830,Patrick Grady,54
+Glasgow North East,S14000032,,831,Anne McLaughlin,25
+Glasgow North West,S14000033,,832,Carol Monaghan,15
+Glasgow South,S14000034,,833,Stewart Malcolm McDonald,14
+Glasgow South West,S14000035,,834,Chris Stephens,34
+Glenrothes,S14000036,,835,Peter Grant,7
+Gordon,S14000037,,836,Alex Salmond,5
+Inverclyde,S14000038,,837,Ronnie Cowan,10
+"Inverness, Nairn, Badenoch and Strathspey",S14000039,,838,Drew Hendry,23
+Kilmarnock and Loudoun,S14000040,,839,Alan Brown,29
+Kirkcaldy and Cowdenbeath,S14000041,,840,Roger Mullin,48
+Lanark and Hamilton East,S14000042,,841,Angela Crawley,43
+Linlithgow and East Falkirk,S14000043,,842,Martyn Day,20
+Livingston,S14000044,,843,Hannah Bardell,9
+Midlothian,S14000045,,844,Owen Thompson,25
+Moray,S14000046,,845,Angus Robertson,1
+Motherwell and Wishaw,S14000047,,846,Marion Fellows,16
+North Ayrshire and Arran,S14000048,,848,Patricia Gibson,43
+North East Fife,S14000049,,849,Stephen Gethins,39
+Ochil and South Perthshire,S14000050,,850,Tasmina Ahmed-Sheikh,20
+Orkney and Shetland,S14000051,,851,Alistair Carmichael,18
+Paisley and Renfrewshire North,S14000052,,852,Gavin Newlands,35
+Paisley and Renfrewshire South,S14000053,,853,Mhairi Black,1
+Perth and North Perthshire,S14000054,,854,Pete Wishart,3
+"Ross, Skye and Lochaber",S14000055,,855,Ian Blackford,25
+Rutherglen and Hamilton West,S14000056,,856,Margaret Ferrier,37
+Stirling,S14000057,,857,Steven Paterson,9
+West Aberdeenshire and Kincardine,S14000058,,858,Stuart Blair Donaldson,4
+West Dunbartonshire,S14000059,,859,Martin Docherty-Hughes,43
+Ynys Mon,W07000041,,W01,Albert Owen,#N/A
+Delyn,W07000042,,W02,David Hanson,5
+Alyn and Deeside,W07000043,,W03,Mark Tami,1
+Wrexham,W07000044,,W04,Ian C. Lucas,1
+Llanelli,W07000045,,W05,Nia Griffith,#N/A
+Gower,W07000046,,W06,Byron Davies,#N/A
+Swansea West,W07000047,,W07,Geraint Davies,5
+Swansea East,W07000048,,W08,Carolyn Harris,5
+Aberavon,W07000049,,W09,Stephen Kinnock,#N/A
+Cardiff Central,W07000050,,W10,Jo Stevens,2
+Cardiff North,W07000051,,W11,Craig Williams,#N/A
+Rhondda,W07000052,,W12,Chris Bryant,#N/A
+Torfaen,W07000053,,W13,Nick Thomas-Symonds,1
+Monmouth,W07000054,,W14,David T. C. Davies,3
+Newport East,W07000055,,W15,Jessica Morden,#N/A
+Newport West,W07000056,,W16,Paul Flynn,64
+Arfon,W07000057,,W17,Hywel Williams,7
+Aberconwy,W07000058,,W18,Guto Bebb,#N/A
+Clwyd West,W07000059,,W19,David Jones,#N/A
+Vale of Clwyd,W07000060,,W20,James Davies,#N/A
+Dwyfor Meirionnydd,W07000061,,W21,Liz Saville Roberts,14
+Clwyd South,W07000062,,W22,Susan Elan Jones,#N/A
+Montgomeryshire,W07000063,,W23,Glyn Davies,#N/A
+Ceredigion,W07000064,,W24,Mark Williams,20
+Preseli Pembrokeshire,W07000065,,W25,Stephen Crabb,#N/A
+Carmarthen West and South Pembrokeshire,W07000066,,W26,Simon Hart,#N/A
+Carmarthen East and Dinefwr,W07000067,,W27,Jonathan Edwards,17
+Brecon and Radnorshire,W07000068,,W28,Chris Davies,#N/A
+Neath,W07000069,,W29,Christina Rees,2
+Cynon Valley,W07000070,,W30,Ann Clwyd,23
+Merthyr Tydfil and Rhymney,W07000071,,W31,Gerald Jones,1
+Blaenau Gwent,W07000072,,W32,Nick Smith,#N/A
+Bridgend,W07000073,,W33,Madeleine Moon,#N/A
+Ogmore,W07000074,,W34,Chris Elmore,1
+Pontypridd,W07000075,,W35,Owen Smith,#N/A
+Caerphilly,W07000076,,W36,Wayne David,#N/A
+Islwyn,W07000077,,W37,Chris Evans,1
+Vale of Glamorgan,W07000078,,W38,Alun Cairns,#N/A
+Cardiff West,W07000079,,W39,Kevin Brennan,#N/A
+Cardiff South and Penarth,W07000080,,W40,Stephen Doughty,3
 NORTH DOWN,N06000013,,,Lady Hermon,#N/A
 UPPER BANN,N06000017,,,David Simpson,7
 EAST ANTRIM,N06000005,,,Sammy Wilson,#N/A
