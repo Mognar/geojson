@@ -15,18 +15,9 @@
 <meta charset="utf-8">
 <body>
   <div id="left_column">
-  <h1 text-align="center">Chloropleth map showing number of debates each England/Wales/Scotland MP spoke in during 2015 Parliament</h1>
-  <p>Hover mouse over each constituency to see the name of the constituency, the MP, and the number of debates spoken in. <br/>
-    Please note, this number does not include appearances in committees. <br/><br/>
-    If a Member made several contributions in one debate, that debate is still only counted once. <br/>
-    If a Member asked a topical and an oral question in the same question time session, this map counts those two questions as one debate.<br/><br/>
-    Constituencies highlighted in green are seats of MPs who did not debate in this Parliament. This will either be because they were <a href="http://www.parliament.uk/business/commons/the-speaker/the-role-of-the-speaker/role-of-the-speaker/">Speakers</a> or 
-    Government Whips, neither of which take part in debates in the typical sense. Members who became whips part way through the Parliament and therefore did take part in debates this Parliament are not in green, but
-    their status as government whip is identified in the "further information" section of the info box.<br/><br/>
-    For seats in which by-elections took place during the 2015 Parliament, the number in the information box is the total of both MPs' debates participated in, but
-    their individual numbers are contained in the "further information" section of the info box.<br/><br/>
-    <b>Do not take this as an indicator of MP's overall activity - MPs do much more than debate in the chamber.</b><br/><br/>
-    The Northern Ireland element of this map is still under construction - sorry!</p>
+  <h1 text-align="center">Chloropleth map showing number of EDMs tabled by each MP during 2015 Parliament</h1>
+  <p>Hover mouse over each constituency to see the name of the constituency, the MP, and the number of EDMs tabled. <br/>
+    
   </div>
  <div id="right column"> 
 <script src="https://d3js.org/d3.v3.min.js"></script>
@@ -39,7 +30,7 @@ var width = "400",
 
 	
   var color = d3.scale.threshold()
-   .domain([30, 60, 90, 120, 150, 180, 210])
+   .domain([0,20,40,60,80,100,120,140])
     .range(["#f2f0f7", "#dadaeb", "#bcbddc", "#9e9ac8", "#756bb1", "#54278f", "#220c3f", "#100026"]);
   
 //Map projection
@@ -104,7 +95,7 @@ var tooltipOffset = {x: 5, y: -25};
 function showTooltip(d) {
   moveTooltip();
   tooltip.style("display","block")
-      .html(d.properties.PCON13NM + "<br/>" + "MP: " + nameById[d.id] + "<br/>" + "No. of debates spoken in:" + numberById[d.id] + "<br/>" + "Further information: " + notesById[d.id]);
+      .html(d.properties.PCON13NM + "<br/>" + "MP: " + nameById[d.id] + "<br/>" + "No. of EDMs tabled:" + numberById[d.id] + "<br/>" + "Further information: " + notesById[d.id]);
 }
 //Move the tooltip to track the mouse
 function moveTooltip() {
