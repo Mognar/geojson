@@ -1,5 +1,5 @@
 {
-	'layout': 'odd-r',
+	'layout':'odd-r',
 	'hexes': {
 		'E14000862': {
 			'Party': 'Conservative',
